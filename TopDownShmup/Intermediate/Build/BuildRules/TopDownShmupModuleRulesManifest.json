@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git\\TopDownShmup\\Source\\TopDownShmup\\TopDownShmup.Build.cs",
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git\\TopDownShmup\\Source\\TopDownShmup.Target.cs",
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git\\TopDownShmup\\Source\\TopDownShmupEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
