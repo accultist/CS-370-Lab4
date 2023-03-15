@@ -14,10 +14,17 @@ void ATopDownShmupPlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
 
+	//  call function to automatically update the direction of the pawn every tick
+	UpdateMouse();
+
 	// keep updating the destination every tick while desired
 	if (bMoveToMouseCursor)
 	{
-		MoveToMouseCursor();
+		/* commented out the below function to prevent mouse movement */
+		//MoveToMouseCursor();
+
+
+		
 	}
 }
 
@@ -32,6 +39,10 @@ void ATopDownShmupPlayerController::SetupInputComponent()
 	// support touch devices 
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ATopDownShmupPlayerController::MoveToTouchLocation);
 	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &ATopDownShmupPlayerController::MoveToTouchLocation);
+
+	// support keyboard movement
+	InputComponent->BindAxis("MoveForward", this, &ATopDownShmupPlayerController::MoveForward);
+	InputComponent->BindAxis("MoveRight", this, &ATopDownShmupPlayerController::MoveRight);
 }
 
 void ATopDownShmupPlayerController::MoveToMouseCursor()
@@ -86,4 +97,62 @@ void ATopDownShmupPlayerController::OnSetDestinationReleased()
 {
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
+}
+
+void ATopDownShmupPlayerController::MoveForward(float Value)
+{
+	if (Value != 0.0f)
+	{
+		APawn* const Pawn = GetPawn();
+		if (Pawn)
+		{
+			Pawn->AddMovementInput(FVector(1.0f, 0.0f, 0.0f), Value);
+		}
+	}
+}
+
+void ATopDownShmupPlayerController::MoveRight(float Value)
+{
+	if (Value != 0.0f)
+	{
+		APawn* const Pawn = GetPawn();
+		if (Pawn)
+		{
+			Pawn->AddMovementInput(FVector(0.0f, 1.0f, 0.0f), Value);
+		}
+	}
+}
+
+/* function will update the pawn's rotation to where the mouse currently is on the screen */
+void ATopDownShmupPlayerController::UpdateMouse()
+{
+	// get pawn pointer
+	APawn* const Pawn = GetPawn();
+
+	if (Pawn)
+	{
+		// Trace to see what is under the mouse cursor
+		FHitResult Hit;
+		GetHitResultUnderCursor(ECC_Visibility, false, Hit);
+
+
+		if (Hit.bBlockingHit)
+		{
+			// construct new vector from pawn's vector coordinates to hit's vector coordinates (mouse location on screen)
+			FVector nuVector = Hit.ImpactPoint - Pawn->GetActorLocation();
+
+			// set z-component of vector to 0.0f
+			// we only care about the rotation on the zy-plane
+			nuVector.Z = 0.0f;
+
+			nuVector.Normalize();
+
+			// convert vector to FRotator
+			FRotator nuRotationVect = nuVector.Rotation();
+
+			// update pawn rotation to reflect mouse location
+			Pawn->SetActorRotation(nuRotationVect);
+
+		}
+	}
 }
