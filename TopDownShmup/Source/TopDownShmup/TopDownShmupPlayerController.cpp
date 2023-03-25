@@ -26,8 +26,10 @@ void ATopDownShmupPlayerController::SetupInputComponent()
 	// set up gameplay key bindings
 	Super::SetupInputComponent();
 
+    /*
 	InputComponent->BindAction("SetDestination", IE_Pressed, this, &ATopDownShmupPlayerController::OnSetDestinationPressed);
 	InputComponent->BindAction("SetDestination", IE_Released, this, &ATopDownShmupPlayerController::OnSetDestinationReleased);
+     */
 
 	// support touch devices 
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ATopDownShmupPlayerController::MoveToTouchLocation);
@@ -76,6 +78,7 @@ void ATopDownShmupPlayerController::SetNewMoveDestination(const FVector DestLoca
 	}
 }
 
+/*
 void ATopDownShmupPlayerController::OnSetDestinationPressed()
 {
 	// set flag to keep updating destination until released
@@ -87,3 +90,5 @@ void ATopDownShmupPlayerController::OnSetDestinationReleased()
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
 }
+*/
+
