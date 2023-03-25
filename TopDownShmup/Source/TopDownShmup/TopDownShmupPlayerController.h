@@ -32,6 +32,13 @@ protected:
 	/** Input handlers for SetDestination action. */
 	void OnSetDestinationPressed();
 	void OnSetDestinationReleased();
+
+	/* Axis binding for WASD keyboard control */
+	void MoveForward(float Value);
+	void MoveRight(float Value);
+
+	/* Mouse look */
+	void UpdateMouse();
 };
 
 
