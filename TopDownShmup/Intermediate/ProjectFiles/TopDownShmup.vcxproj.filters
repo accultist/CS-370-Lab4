@@ -29,9 +29,45 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\TopDownShmup">
       <UniqueIdentifier>{EC1B3F59-428C-36C7-BA0E-5248DAAFB716}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TopDownShmup\AssaultWeapon.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\AssaultWeapon.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\DwarfCharacter.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\DwarfCharacter.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\DwarfEnemyAIController.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\DwarfEnemyAIController.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\EnemyAIController.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\EnemyAIController.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\EnemyCharacter.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\EnemyCharacter.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TopDownShmup\TopDownShmup.Build.cs">
       <Filter>Source\TopDownShmup</Filter>
     </None>
@@ -57,6 +93,12 @@
       <Filter>Source\TopDownShmup</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TopDownShmup\TopDownShmupPlayerController.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\Weapon.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\Weapon.h">
       <Filter>Source\TopDownShmup</Filter>
     </ClInclude>
   </ItemGroup>
