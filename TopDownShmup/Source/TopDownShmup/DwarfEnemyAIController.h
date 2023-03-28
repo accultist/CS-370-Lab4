@@ -13,5 +13,10 @@ UCLASS()
 class TOPDOWNSHMUP_API ADwarfEnemyAIController : public AEnemyAIController
 {
 	GENERATED_BODY()
+
+		ADwarfEnemyAIController();
+
+		public:
+		//	();
 	
 };
