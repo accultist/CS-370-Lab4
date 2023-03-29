@@ -3,10 +3,11 @@
 
 #include "AssaultWeapon.h"
 
+
 void AAssaultWeapon::OnStartFire() {
     Super::OnStartFire();
     // Call WeaponTrace FireRate per second, starting 0 seconds from now.
-    GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AAssaultWeapon::WeaponTrace, FireRate, true, 0.0f);
+   // GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AAssaultWeapon::WeaponTrace, FireRate, true, 0.5f);
 }
 
 
@@ -21,12 +22,12 @@ void AAssaultWeapon::WeaponTrace()
     static FName MuzzleSocket = FName(TEXT("MuzzleFlashSocket"));
     
     // Once we've called this function enough times, clear the Timer.
-    if (--RepeatingCallsRemaining <= 0)
-    {
-        GetWorldTimerManager().ClearTimer(MemberTimerHandle);
+    //if (--RepeatingCallsRemaining <= 0)
+   // {
+      //  GetWorldTimerManager().ClearTimer(MemberTimerHandle);
         // MemberTimerHandle can now be reused for any other Timer.
         
-    }
+   // }
     
     // Start from the muzzle's position
     FVector StartPos = WeaponMesh->GetSocketLocation(MuzzleSocket);
@@ -36,6 +37,7 @@ void AAssaultWeapon::WeaponTrace()
     
     // Calculate end position
     FVector EndPos = StartPos + (Forward * WeaponRange);
+    
     
     // Perform line trace to retrieve hit info
     FCollisionQueryParams TraceParams(WeaponFireTag, true, GetInstigator());
@@ -48,7 +50,7 @@ void AAssaultWeapon::WeaponTrace()
     // Did this hit anything?
     if (Hit.bBlockingHit)
     {
-        HitEffect->UGameplayStatics::SpawnEmitterAtLocation(this, HitEffect, EndPos);
+    //    HitEffect->UGameplayStatics::SpawnEmitterAtLocation(this, HitEffect, EndPos);
         
     }
     

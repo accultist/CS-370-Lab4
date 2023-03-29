@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Weapon.h"
+#include "TimerManager.h"
 #include "AssaultWeapon.generated.h"
+
 
 /**
  * 
@@ -18,12 +20,13 @@ public:
     virtual void OnStartFire() override;
     virtual void OnStopFire() override;
     
-    float FireRate(0.5f);
-    float WeaponRange(10000.0f);
+    float FireRate = (0.5f);
+    float WeaponRange = (10000.0f);
     
     UPROPERTY(EditDefaultsOnly)
     UParticleSystem* HitEffect;
-    
+private:
+    FTimerHandle MemberTimerHandle;
 protected:
     void WeaponTrace();
 	

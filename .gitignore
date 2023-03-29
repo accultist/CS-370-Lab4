@@ -75,3 +75,7 @@ DerivedDataCache/*
 
 # ignore starter content
 Content/StarterConent/*
+/TopDownShmup/Saved/Config/CrashReportClient
+/TopDownShmup/Saved/Logs/TopDownShmup-backup-2023.03.15-22.11.53.log
+/TopDownShmup/Saved/Logs
+/TopDownShmup/Saved/Crashes

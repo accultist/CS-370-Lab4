@@ -43,7 +43,7 @@ void ATopDownShmupCharacter::BeginPlay()
     {
         UWorld* World = GetWorld();
         
-        MyPawn = ?
+        //MyPawn = ?
         
         if (World)
         {

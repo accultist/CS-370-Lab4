@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup/TopDownShmup.Build.cs",
-		"/Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup.Target.cs",
-		"/Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmupEditor.Target.cs"
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git_mar2723\\TopDownShmup\\Source\\TopDownShmup\\TopDownShmup.Build.cs",
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git_mar2723\\TopDownShmup\\Source\\TopDownShmup.Target.cs",
+		"C:\\Users\\Chuck\\Documents\\SSU\\Spring 2023\\CS-370\\lab4_git_mar2723\\TopDownShmup\\Source\\TopDownShmupEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
