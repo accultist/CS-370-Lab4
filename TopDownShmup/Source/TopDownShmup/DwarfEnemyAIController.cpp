@@ -82,33 +82,39 @@ void ADwarfEnemyAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// if dwarf had just spanwed, change status to chase player
+	// if dwarf had just spawned, change status to chase player
 	if (GetCurrentState() == EDwarfState::EStart) {
 		SetCurrentState(EDwarfState::EChasing);
 		// debug message
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Start->Chase"));
 	}
 
-	// if 
-	//if (getcontrolledpawn) {
+	// get vector location of player
 	vecPlayerCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
-			//GetIndex(0);
-	//}
-	//vecDwarfEnemy = InPawn->GetActorTransform();
-	
+
 	// select dwarf
 	APawn* const Pawn = GetPawn();
 
-	// calculate distance between player and dwarf
-	float const DistanceToPlayer = FVector::Dist(vecPlayerCharacter, Pawn->GetActorLocation());
+	// get vector location of dwarf
+	vecDwarfEnemy = Pawn->GetActorLocation();
+	//GEngine->AddOnScreenDebugMessage(-1, 200, FColor::Green, FString::Printf(TEXT("%s"), *vecDwarfEnemy.ToString()));
 
+	//Pawn.StartAttack();
+
+	// calculate distance between player and dwarf
+	float const DistanceToPlayer = FVector::Dist(vecPlayerCharacter, vecDwarfEnemy);
+
+	//FString TheFloatStr = FString::SanitizeFloat(DistanceToPlayer);
+	//GEngine->AddOnScreenDebugMessage(-1, 200, FColor::Red, *TheFloatStr);
+	 
 	// if within attack range
-	if (DistanceToPlayer < 50.0f) {
+	// after testing, a distance of 90.2f is within melee distance having near collision between player and dwarf
+	if (DistanceToPlayer <= 90.2f) {
 		// change status for dwarf to attack
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("KILL KILL KILL KILL KILL KILL KILL KILL KILL KILL"));
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("KILL KILL KILL KILL KILL KILL KILL KILL KILL KILL"));
 		SetCurrentState(EDwarfState::EAttacking);
 	}
-	else {
+	else if (DistanceToPlayer > 90.2) {
 		SetCurrentState(EDwarfState::EChasing);
 	}
 
@@ -147,7 +153,9 @@ void ADwarfEnemyAIController::HandleNewState(EDwarfState NewState)
 	// when the dwarf is attacking the player
 	case EDwarfState::EAttacking:
 	{
-		Super::StopMovement();
+		
+
+		//Super::StopMovement();
 		break;
 	}
 	// when the dwarf is dead

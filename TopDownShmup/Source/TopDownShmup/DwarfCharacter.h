@@ -18,7 +18,10 @@ class TOPDOWNSHMUP_API ADwarfCharacter : public AEnemyCharacter
 public:
 	// Sets default values for this character's properties
 	ADwarfCharacter();
-
+	UPROPERTY(EditDefaultsOnly)
+		UAnimMontage* AttackAnim;
+	void StartAttack();
+	void StopAttack();
 
 protected:
 	// Called when the game starts or when spawned

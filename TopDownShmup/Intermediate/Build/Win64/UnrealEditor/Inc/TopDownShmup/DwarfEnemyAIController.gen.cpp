@@ -146,6 +146,11 @@ void EmptyLinkFunctionForGeneratedCodeDwarfEnemyAIController() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DistanceToMelee_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceToMelee;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -164,6 +169,16 @@ void EmptyLinkFunctionForGeneratedCodeDwarfEnemyAIController() {}
 		{ "ModuleRelativePath", "DwarfEnemyAIController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADwarfEnemyAIController_Statics::NewProp_DistanceToMelee_MetaData[] = {
+		{ "Category", "Melee Dist." },
+		{ "ModuleRelativePath", "DwarfEnemyAIController.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADwarfEnemyAIController_Statics::NewProp_DistanceToMelee = { "DistanceToMelee", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADwarfEnemyAIController, DistanceToMelee), METADATA_PARAMS(Z_Construct_UClass_ADwarfEnemyAIController_Statics::NewProp_DistanceToMelee_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfEnemyAIController_Statics::NewProp_DistanceToMelee_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADwarfEnemyAIController_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADwarfEnemyAIController_Statics::NewProp_DistanceToMelee,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADwarfEnemyAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADwarfEnemyAIController>::IsAbstract,
 	};
@@ -173,11 +188,11 @@ void EmptyLinkFunctionForGeneratedCodeDwarfEnemyAIController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ADwarfEnemyAIController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfEnemyAIController_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ADwarfEnemyAIController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfEnemyAIController_Statics::Class_MetaDataParams))
@@ -204,9 +219,9 @@ void EmptyLinkFunctionForGeneratedCodeDwarfEnemyAIController() {}
 		{ EDwarfState_StaticEnum, TEXT("EDwarfState"), &Z_Registration_Info_UEnum_EDwarfState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3792002899U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADwarfEnemyAIController, ADwarfEnemyAIController::StaticClass, TEXT("ADwarfEnemyAIController"), &Z_Registration_Info_UClass_ADwarfEnemyAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADwarfEnemyAIController), 3588330364U) },
+		{ Z_Construct_UClass_ADwarfEnemyAIController, ADwarfEnemyAIController::StaticClass, TEXT("ADwarfEnemyAIController"), &Z_Registration_Info_UClass_ADwarfEnemyAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADwarfEnemyAIController), 1908020210U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_571928609(TEXT("/Script/TopDownShmup"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_2911421668(TEXT("/Script/TopDownShmup"),
 		Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfEnemyAIController_h_Statics::EnumInfo));

@@ -17,6 +17,16 @@ ADwarfCharacter::ADwarfCharacter()
 
 }
 
+void ADwarfCharacter::StartAttack()
+{
+	Super::PlayAnimMontage();
+}
+
+void ADwarfCharacter::StopAttack()
+{
+	Super::StopAnimMontage();
+}
+
 // Called when the game starts or when spawned
 void ADwarfCharacter::BeginPlay()
 {
