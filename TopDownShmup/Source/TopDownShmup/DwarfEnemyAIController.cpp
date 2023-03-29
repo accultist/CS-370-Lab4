@@ -9,13 +9,14 @@
 
 
 
+
 void ADwarfEnemyAIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
 
-	bMoveComplete = false;
+	//bMoveComplete = false;
 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("On Possess is functional"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("howdy!"));
 
 }
 
@@ -23,16 +24,18 @@ void ADwarfEnemyAIController::MoveToActorFunc(APawn* InPawn)
 {
 	Super::BeginPlay();
 
+	SetCurrentState(EDwarfState::EStart);
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Start"));
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("MoveToActor is functional"));
 
 	
 
 	// move to player's current location
-	if (!bMoveComplete){
-	Super::MoveToActor(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0),
-		-1.0F);
+	//if (!bMoveComplete){
+	//Super::MoveToActor(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0),
+	//	-1.0F);
 	//Super::StopMovement();
-	}
+	//}
 
 	//if (UGameplayStatics::GetPlayerCharacter(GetWorld(), 0) = -1.0f){
 		
@@ -60,21 +63,107 @@ void ADwarfEnemyAIController::MoveToActorFunc(APawn* InPawn)
 
 }
 
+EDwarfState ADwarfEnemyAIController::GetCurrentState() const
+{
+	return CurrentState;
+}
+
+void ADwarfEnemyAIController::SetCurrentState(EDwarfState NewState)
+{
+	// set current state
+	CurrentState = NewState;
+	// handle new state
+	HandleNewState(CurrentState);
+
+}
+
 // Called every frame
 void ADwarfEnemyAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// if dwarf had just spanwed, change status to chase player
+	if (GetCurrentState() == EDwarfState::EStart) {
+		SetCurrentState(EDwarfState::EChasing);
+		// debug message
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Start->Chase"));
+	}
+
+	// if 
+	//if (getcontrolledpawn) {
+	vecPlayerCharacter = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
+			//GetIndex(0);
+	//}
+	//vecDwarfEnemy = InPawn->GetActorTransform();
+	
+	// select dwarf
+	APawn* const Pawn = GetPawn();
+
+	// calculate distance between player and dwarf
+	float const DistanceToPlayer = FVector::Dist(vecPlayerCharacter, Pawn->GetActorLocation());
+
+	// if within attack range
+	if (DistanceToPlayer < 50.0f) {
+		// change status for dwarf to attack
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("KILL KILL KILL KILL KILL KILL KILL KILL KILL KILL"));
+		SetCurrentState(EDwarfState::EAttacking);
+	}
+	else {
+		SetCurrentState(EDwarfState::EChasing);
+	}
+
+
 	// call function to move to player
-	MoveToActorFunc(InPawn);
+	//MoveToActorFunc(InPawn);
 
 }
 
 void ADwarfEnemyAIController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result)
 {
-	bMoveComplete = true;
-	Super::StopMovement();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("move completed"));
+	//bMoveComplete = true;
+	//Super::StopMovement();
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("move completed"));
+}
+
+void ADwarfEnemyAIController::HandleNewState(EDwarfState NewState)
+{
+	switch (NewState)
+	{
+	// if the game starts
+	case EDwarfState::EStart:
+	{
+		break;
+	}
+	// when the dwarf is chasing player
+	case EDwarfState::EChasing:
+	{
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Chasing via switch"));
+		Super::MoveToActor(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0),
+			-1.0F);
+		//Super::StopMovement();
+		//bMoveComplete = false;
+		break;
+	}
+	// when the dwarf is attacking the player
+	case EDwarfState::EAttacking:
+	{
+		Super::StopMovement();
+		break;
+	}
+	// when the dwarf is dead
+	case EDwarfState::EDead:
+	{
+
+		break;
+	}
+	// should never reach here, hopefully, fingers crossed
+	case EDwarfState::EUnknown:
+	{
+
+		// do nothing
+		break;
+	}
+	}
 }
 
 //void ADwarfEnemyAIController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result)
