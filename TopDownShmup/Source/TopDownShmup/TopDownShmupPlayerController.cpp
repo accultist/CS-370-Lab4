@@ -14,8 +14,9 @@ void ATopDownShmupPlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
 
-	//  call function to automatically update the direction of the pawn every tick
+	// call function to automatically update the direction of the pawn every tick
 	UpdateMouse();
+
 
 	// keep updating the destination every tick while desired
 	if (bMoveToMouseCursor)

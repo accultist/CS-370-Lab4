@@ -1460,3 +1460,2006 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.28-07.37.25:640][595]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.046
 [2023.03.28-07.37.25:640][595]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
 [2023.03.28-07.40.36:935][167]LogDerivedDataCache: C:/Users/Chuck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.142 and deleted 1 file(s) with total size 0 MiB.
+[2023.03.28-16.54.48:765][916]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x725760d0f60 [can pipeline])
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.0.17.80) port 443 (#5))
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.28-16.54.48:766][916]LogHttp: Warning: 00000725C0CC7D00: libcurl info message cache 7 (Closing connection 5)
+[2023.03.28-16.54.48:767][916]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.28-22.26.38:843][933]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.03.28-22.26.38:843][933]LogHttp: Warning: 00000725C0CC0500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.28-22.26.38:844][933]LogHttp: Warning: 00000725C0CC0500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.03.28-22.26.38:844][933]LogHttp: Warning: 00000725C0CC0500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.03.28-22.26.38:844][933]LogHttp: Warning: 00000725C0CC0500: libcurl info message cache 1 (Closing connection 6)
+[2023.03.28-22.26.38:844][933]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.28-22.26.39:347][934]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.03.28-22.26.40:839][938]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.03.28-22.26.43:575][944]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [19908514ms] waiting for h/w. InstanceID=1
+[2023.03.28-22.26.43:584][945]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10664
+[2023.03.28-22.26.43:919][945]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7e371ebc-0a64-4313-86dd-c2e8fd1107ac}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=218.92
+[2023.03.28-22.26.43:919][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.03.28-22.26.43:925][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.03.28-22.26.46:591][953]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.03.29-01.58.27:921][954]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.03.29-01.58.28:296][955]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.03.29-01.58.28:301][956]LogHttp: Warning: 00000725C0CCCD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.29-01.58.28:301][956]LogHttp: Warning: 00000725C0CCCD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.03.29-01.58.28:301][956]LogHttp: Warning: 00000725C0CCCD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.03.29-01.58.28:301][956]LogHttp: Warning: 00000725C0CCCD00: libcurl info message cache 1 (Closing connection 7)
+[2023.03.29-01.58.28:302][956]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4C0036F-42ED-4E60-3576-8E9295415C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=675c3aa449559993bd0f09811af92612%7C08b2bab0d2b54827bcc3fc77cdd8e1b0%7C7229bc8b-7f7c-4d76-8e15-f4ed7daa2ac0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.29-01.58.30:306][961]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.03.29-02.33.08:779][168]LogDerivedDataCache: C:/Users/Chuck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.387 and deleted 28 file(s) with total size 0 MiB.
+[2023.03.29-02.43.19:306][ 65]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-02.43.41:485][352]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_7.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_7.exp
+[2023.03.29-02.43.42:183][356]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.03.29-02.43.42:900][357]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-02.43.42:900][357]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-02.52.14:210][184]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-02.52.20:923][204]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-02.52.20:923][204]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-02.54.46:819][178]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-02.54.57:291][730]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_8.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_8.exp
+[2023.03.29-02.54.57:906][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.03.29-02.54.58:361][736]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-02.54.58:361][736]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-03.14.10:442][576]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.14.13:475][586]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.14.13:476][586]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.15.18:967][914]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.15.21:800][ 21]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.15.21:800][ 21]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.22.52:517][745]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.22.55:439][889]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.22.55:439][889]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.29.58:235][563]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.30.00:978][701]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.30.00:978][701]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.33.08:502][809]LogDerivedDataCache: C:/Users/Chuck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.145 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.29-03.35.10:172][321]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.35.12:900][488]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.35.12:900][488]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.37.25:178][395]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.37.27:991][506]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.37.27:991][506]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.40.08:125][641]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.40.17:147][165]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_9.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_9.exp
+[2023.03.29-03.40.17:909][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2023.03.29-03.40.18:257][172]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-03.40.18:257][172]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-03.41.05:425][555]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.41.07:652][660]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-03.41.07:652][660]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-03.45.00:407][754]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.45.08:715][351]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_10.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_10.exp
+[2023.03.29-03.45.09:170][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2023.03.29-03.45.09:478][355]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-03.45.09:478][355]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-03.45.55:115][558]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.45.58:892][798]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_11.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_11.exp
+[2023.03.29-03.45.59:277][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.03.29-03.45.59:569][802]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-03.45.59:569][802]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-03.55.09:373][640]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-03.55.17:653][907]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_12.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_12.exp
+[2023.03.29-03.55.17:980][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.03.29-03.55.18:296][908]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-03.55.18:296][908]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-04.08.14:193][648]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-04.08.20:484][769]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_13.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_13.exp
+[2023.03.29-04.08.20:948][769]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2023.03.29-04.08.21:384][770]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-04.08.21:384][770]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-04.33.08:369][688]LogDerivedDataCache: C:/Users/Chuck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.217 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.29-04.35.41:888][215]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-04.35.59:994][269]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_14.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_14.exp
+[2023.03.29-04.36.00:063][269]LogClass: /Script/TopDownShmup Reload.
+[2023.03.29-04.36.00:064][269]LogClass: DwarfEnemyAIController Reload.
+[2023.03.29-04.36.00:066][269]LogClass: Could not find existing class DwarfEnemyAIController in package /Script/TopDownShmup for reload, assuming new or modified class
+[2023.03.29-04.36.00:084][269]Re-instancing DwarfEnemyAIController after reload.
+[2023.03.29-04.36.00:314][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2023.03.29-04.36.00:614][270]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.03.29-04.36.00:614][270]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.03.29-04.37.29:799][246]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-04.37.29:822][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-04.37.29:827][246]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 2:37:29 PM)
+[2023.03.29-04.37.29:832][246]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-04.37.29:889][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057218s)
+[2023.03.29-04.37.29:889][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.057813s)
+[2023.03.29-04.37.29:891][246]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-04.37.29:898][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-04.37.29:911][246]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-04.37.29:922][246]LogPlayLevel: PIE: World Init took: (0.032750s)
+[2023.03.29-04.37.30:051][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.03.29-04.37.30:058][246]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-04.37.30:060][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-04.37.30:060][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-04.37.30:062][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-04.37.30:062][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-04.37.30:062][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-04.37.30:066][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-04.37.30:117][246]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-04.37.30:120][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-04.37.30:120][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-04.37.30:120][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-04.37.30:122][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.03.29-04.37.30:122][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.03.29-04.37.30:125][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.03.29-04.37.30:125][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.03.29-04.37.30:125][246]LogInit: FAudioDevice initialized.
+[2023.03.29-04.37.30:125][246]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownExampleMap'.
+[2023.03.29-04.37.30:162][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-04.37.30:165][246]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-04.37.30:200][246]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-21.37.30
+[2023.03.29-04.37.30:210][246]LogWorld: Bringing up level for play took: 0.044352
+[2023.03.29-04.37.30:217][246]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.03.29-04.37.30:226][246]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-04.37.30:226][246]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-04.37.30:226][246]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-04.37.30:230][246]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-04.37.30:237][246]PIE: Server logged in
+[2023.03.29-04.37.30:239][246]PIE: Play in editor total start time 0.425 seconds.
+[2023.03.29-04.37.30:266][246]LogViewport: Scene viewport resized to 1309x860, mode Windowed.
+[2023.03.29-04.37.45:035][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-04.37.45:036][936]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-04.37.45:038][936]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-04.37.45:041][936]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-04.37.45:045][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-04.37.45:063][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-04.37.45:068][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-04.37.45:090][936]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-04.37.45:091][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.29-04.37.45:094][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.03.29-04.37.45:109][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.03.29-04.37.45:163][937]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.29-04.44.18:540][361]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-04.44.32:176][681]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_15.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_15.exp
+[2023.03.29-04.44.32:265][681]LogClass: /Script/TopDownShmup Reload.
+[2023.03.29-04.44.32:265][681]LogClass: DwarfEnemyAIController Reload.
+[2023.03.29-04.44.32:267][681]LogClass: Could not find existing class DwarfEnemyAIController in package /Script/TopDownShmup for reload, assuming new or modified class
+[2023.03.29-04.44.32:276][681]Re-instancing DwarfCharacter after reload.
+[2023.03.29-04.44.32:398][681]Re-instancing DwarfEnemyAIController after reload.
+[2023.03.29-04.44.32:528][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.03.29-04.44.32:892][682]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2023.03.29-04.44.32:892][682]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.03.29-05.04.59:851][558]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.05.01:910][636]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_16.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_16.exp
+[2023.03.29-05.05.02:297][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.03.29-05.05.02:601][640]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2023.03.29-05.05.02:601][640]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.08.16:217][643]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.08.38:669][863]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_17.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_17.exp
+[2023.03.29-05.08.38:731][863]LogClass: DwarfEnemyAIController Reload.
+[2023.03.29-05.08.38:731][863]LogClass: Could not find existing class DwarfEnemyAIController in package /Script/TopDownShmup for reload, assuming new or modified class
+[2023.03.29-05.08.38:743][863]Re-instancing DwarfEnemyAIController after reload.
+[2023.03.29-05.08.38:912][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2023.03.29-05.08.39:282][864]Display: Reload/Re-instancing Complete: 1 class changed
+[2023.03.29-05.08.39:282][864]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.03.29-05.11.24:985][426]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.11.28:798][640]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_18.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_18.exp
+[2023.03.29-05.11.29:192][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.03.29-05.11.29:514][644]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-05.11.29:514][644]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.11.32:879][779]Cmd: DELETE
+[2023.03.29-05.11.32:880][779]Cmd: ACTOR DELETE
+[2023.03.29-05.11.32:948][779]LogEditorActor: Deleted Actor: BP_Dwarf_C
+[2023.03.29-05.11.33:041][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.03.29-05.11.33:061][779]LogEditorActor: Deleted 1 Actors (0.171 secs)
+[2023.03.29-05.11.37:008][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.11.37:008][932]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.11.37:013][932]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_2
+[2023.03.29-05.11.37:014][932]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_2
+[2023.03.29-05.11.37:803][979]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.11.37:803][979]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.11.37:805][979]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_3
+[2023.03.29-05.11.37:807][979]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_3
+[2023.03.29-05.11.39:445][ 61]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.11.39:460][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.11.39:460][ 61]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:11:39 PM)
+[2023.03.29-05.11.39:460][ 61]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.11.39:465][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005720s)
+[2023.03.29-05.11.39:465][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005820s)
+[2023.03.29-05.11.39:466][ 61]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.11.39:466][ 61]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.11.39:467][ 61]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.11.39:467][ 61]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2023.03.29-05.11.39:490][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.03.29-05.11.39:499][ 61]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.11.39:499][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.11.39:499][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.11.39:500][ 61]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.11.39:500][ 61]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.11.39:500][ 61]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.11.39:501][ 61]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.11.39:552][ 61]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.11.39:552][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.11.39:552][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.11.39:553][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.11.39:553][ 61]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.29-05.11.39:553][ 61]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.29-05.11.39:555][ 61]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.29-05.11.39:555][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.29-05.11.39:555][ 61]LogInit: FAudioDevice initialized.
+[2023.03.29-05.11.39:555][ 61]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.11.39:578][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.11.39:578][ 61]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.11.39:580][ 61]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.11.39
+[2023.03.29-05.11.39:581][ 61]LogWorld: Bringing up level for play took: 0.002411
+[2023.03.29-05.11.39:582][ 61]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.03.29-05.11.39:584][ 61]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.11.39:584][ 61]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.11.39:584][ 61]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.11.39:584][ 61]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.11.39:586][ 61]PIE: Server logged in
+[2023.03.29-05.11.39:587][ 61]PIE: Play in editor total start time 0.128 seconds.
+[2023.03.29-05.11.39:630][ 61]LogViewport: Scene viewport resized to 1311x870, mode Windowed.
+[2023.03.29-05.11.48:714][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.11.48:714][482]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.11.48:714][482]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.11.48:717][482]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.11.48:717][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.11.48:726][482]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.11.48:731][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.11.48:751][482]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-05.11.48:752][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.29-05.11.48:753][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.29-05.11.48:765][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.03.29-05.11.48:812][483]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.29-05.12.15:333][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.03.29-05.12.15:378][647]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto8
+[2023.03.29-05.12.15:378][647]LogSavePackage: Moving '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/TopDownExampleMap_Auto88CF687F54B1A617B897AA8805034E1CC.tmp' to '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto8.umap'
+[2023.03.29-05.12.15:389][647]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.075
+[2023.03.29-05.12.15:390][647]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.075
+[2023.03.29-05.17.32:737][750]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.17.49:973][749]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_19.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_19.exp
+[2023.03.29-05.17.50:176][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.03.29-05.17.50:464][754]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.17.50:464][754]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.17.54:315][905]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.17.54:329][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.17.54:331][905]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:17:54 PM)
+[2023.03.29-05.17.54:331][905]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.17.54:337][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006557s)
+[2023.03.29-05.17.54:337][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.006627s)
+[2023.03.29-05.17.54:338][905]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.17.54:338][905]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.17.54:338][905]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.17.54:338][905]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2023.03.29-05.17.54:411][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.03.29-05.17.54:420][905]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.17.54:420][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.17.54:420][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.17.54:421][905]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.17.54:421][905]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.17.54:421][905]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.17.54:425][905]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.17.54:472][905]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.17.54:473][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.17.54:473][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.17.54:473][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.17.54:473][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.29-05.17.54:473][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.29-05.17.54:476][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.29-05.17.54:476][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.29-05.17.54:476][905]LogInit: FAudioDevice initialized.
+[2023.03.29-05.17.54:476][905]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.17.54:505][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.17.54:505][905]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.17.54:508][905]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.17.54
+[2023.03.29-05.17.54:508][905]LogWorld: Bringing up level for play took: 0.002552
+[2023.03.29-05.17.54:511][905]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.03.29-05.17.54:512][905]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.17.54:512][905]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.17.54:512][905]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.17.54:513][905]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.17.54:515][905]PIE: Server logged in
+[2023.03.29-05.17.54:515][905]PIE: Play in editor total start time 0.186 seconds.
+[2023.03.29-05.17.54:559][905]LogViewport: Scene viewport resized to 1313x880, mode Windowed.
+[2023.03.29-05.18.09:564][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.18.09:564][483]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.18.09:564][483]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.18.09:575][483]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.18.09:576][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.18.09:590][483]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.18.09:594][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.18.09:618][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.29-05.18.09:621][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.29-05.18.09:671][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.29-05.18.09:739][484]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.29-05.19.13:557][ 97]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.19.17:656][318]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_20.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_20.exp
+[2023.03.29-05.19.17:843][320]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2023.03.29-05.19.18:146][321]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.19.18:146][321]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.19.20:006][398]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.19.20:014][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.19.20:014][398]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:19:20 PM)
+[2023.03.29-05.19.20:014][398]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.19.20:019][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004916s)
+[2023.03.29-05.19.20:019][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.004982s)
+[2023.03.29-05.19.20:019][398]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.19.20:019][398]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.19.20:019][398]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.19.20:020][398]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2023.03.29-05.19.20:086][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.03.29-05.19.20:095][398]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.19.20:095][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.19.20:095][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.19.20:096][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.19.20:096][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.19.20:096][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.19.20:098][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.19.20:142][398]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.19.20:142][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.19.20:142][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.19.20:142][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.19.20:144][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.29-05.19.20:144][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.29-05.19.20:146][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.29-05.19.20:146][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.29-05.19.20:146][398]LogInit: FAudioDevice initialized.
+[2023.03.29-05.19.20:146][398]LogAudio: Display: Audio Device (ID: 11) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.19.20:175][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.19.20:175][398]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.19.20:177][398]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.19.20
+[2023.03.29-05.19.20:178][398]LogWorld: Bringing up level for play took: 0.002701
+[2023.03.29-05.19.20:180][398]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.03.29-05.19.20:181][398]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.19.20:181][398]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.19.20:181][398]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.19.20:182][398]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.19.20:182][398]PIE: Server logged in
+[2023.03.29-05.19.20:184][398]PIE: Play in editor total start time 0.17 seconds.
+[2023.03.29-05.19.20:226][398]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2023.03.29-05.19.43:404][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.19.43:405][462]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.19.43:405][462]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.19.43:410][462]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.19.43:411][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.19.43:421][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.19.43:427][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.19.43:451][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.29-05.19.43:454][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.29-05.19.43:495][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.03.29-05.19.43:550][463]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.03.29-05.26.50:752][315]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.27.08:987][391]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_21.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_21.exp
+[2023.03.29-05.27.09:153][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.03.29-05.27.09:462][394]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.27.09:462][394]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.27.12:079][495]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.27.12:094][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.27.12:094][495]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:27:12 PM)
+[2023.03.29-05.27.12:094][495]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.27.12:100][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005316s)
+[2023.03.29-05.27.12:101][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005406s)
+[2023.03.29-05.27.12:101][495]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.27.12:101][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.27.12:101][495]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.27.12:101][495]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2023.03.29-05.27.12:167][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.03.29-05.27.12:178][495]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.27.12:178][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.27.12:178][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.27.12:178][495]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.27.12:178][495]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.27.12:178][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.27.12:181][495]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.27.12:227][495]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.27.12:227][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.27.12:227][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.27.12:227][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.27.12:227][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.29-05.27.12:227][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.29-05.27.12:228][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.29-05.27.12:229][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.29-05.27.12:229][495]LogInit: FAudioDevice initialized.
+[2023.03.29-05.27.12:229][495]LogAudio: Display: Audio Device (ID: 12) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.27.12:261][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.27.12:263][495]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.27.12:266][495]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.27.12
+[2023.03.29-05.27.12:266][495]LogWorld: Bringing up level for play took: 0.003503
+[2023.03.29-05.27.12:268][495]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.03.29-05.27.12:269][495]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.27.12:269][495]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.27.12:269][495]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.27.12:270][495]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.27.12:271][495]PIE: Server logged in
+[2023.03.29-05.27.12:272][495]PIE: Play in editor total start time 0.178 seconds.
+[2023.03.29-05.27.12:317][495]LogViewport: Scene viewport resized to 1317x900, mode Windowed.
+[2023.03.29-05.27.15:684][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.27.15:684][597]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.27.15:685][597]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.27.15:689][597]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.27.15:690][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.27.15:696][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.27.15:702][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.27.15:716][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-05.27.15:717][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.29-05.27.15:719][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.29-05.27.15:767][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.03.29-05.27.15:836][598]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.29-05.27.25:154][886]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.27.25:156][886]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_3
+[2023.03.29-05.27.25:191][886]EditorErrors: New page: Actor Reattachment
+[2023.03.29-05.27.27:296][999]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.27.27:311][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.27.27:311][999]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:27:27 PM)
+[2023.03.29-05.27.27:311][999]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.27.27:317][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005037s)
+[2023.03.29-05.27.27:317][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005126s)
+[2023.03.29-05.27.27:317][999]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.27.27:317][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.27.27:318][999]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.27.27:318][999]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2023.03.29-05.27.27:334][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.03.29-05.27.27:344][999]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.27.27:345][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.27.27:345][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.27.27:345][999]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.27.27:345][999]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.27.27:345][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.27.27:347][999]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.27.27:389][999]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.27.27:390][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.27.27:390][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.27.27:390][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.27.27:391][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.03.29-05.27.27:391][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.03.29-05.27.27:393][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.03.29-05.27.27:393][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.03.29-05.27.27:393][999]LogInit: FAudioDevice initialized.
+[2023.03.29-05.27.27:393][999]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.27.27:419][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.27.27:419][999]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.27.27:421][999]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.27.27
+[2023.03.29-05.27.27:421][999]LogWorld: Bringing up level for play took: 0.002993
+[2023.03.29-05.27.27:425][999]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.03.29-05.27.27:425][999]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.27.27:425][999]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.27.27:425][999]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.27.27:426][999]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.27.27:427][999]PIE: Server logged in
+[2023.03.29-05.27.27:428][999]PIE: Play in editor total start time 0.116 seconds.
+[2023.03.29-05.27.27:469][999]LogViewport: Scene viewport resized to 1319x910, mode Windowed.
+[2023.03.29-05.27.33:274][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.27.33:274][257]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.27.33:275][257]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.27.33:278][257]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.27.33:279][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.27.33:286][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.27.33:290][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.27.33:306][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.29-05.27.33:309][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.29-05.27.33:316][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.03.29-05.27.33:361][258]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.29-05.28.08:092][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.03.29-05.28.08:120][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto9
+[2023.03.29-05.28.08:120][840]LogSavePackage: Moving '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/TopDownExampleMap_Auto98863F066489AA4B8772CAFBA7E7F1504.tmp' to '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto9.umap'
+[2023.03.29-05.28.08:125][840]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.053
+[2023.03.29-05.28.08:125][840]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2023.03.29-05.32.24:470][675]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.32.43:654][804]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.exp
+DwarfCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ADwarfCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ADwarfCharacter@@UEAAXPEAVUInputComponent@@@Z)
+DwarfCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ADwarfCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ADwarfCharacter@@UEAAXPEAVUInputComponent@@@Z)
+C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.exe : fatal error LNK1120: 1 unresolved externals
+[2023.03.29-05.32.43:654][804]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.32.43:654][804]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-05.33.12:462][ 22]LogDerivedDataCache: C:/Users/Chuck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.268 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.29-05.33.14:958][ 38]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.33.16:116][ 83]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.exp
+DwarfCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ADwarfCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ADwarfCharacter@@UEAAXPEAVUInputComponent@@@Z)
+DwarfCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ADwarfCharacter::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ADwarfCharacter@@UEAAXPEAVUInputComponent@@@Z)
+C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.exe : fatal error LNK1120: 1 unresolved externals
+[2023.03.29-05.33.16:129][ 83]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.33.16:129][ 83]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.03.29-05.33.51:007][336]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.34.09:101][ 14]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_22.exp
+[2023.03.29-05.34.09:340][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.03.29-05.34.09:630][ 17]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-05.34.09:630][ 17]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.34.14:633][201]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.34.14:649][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.34.14:649][201]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:34:14 PM)
+[2023.03.29-05.34.14:649][201]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.34.14:657][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007246s)
+[2023.03.29-05.34.14:657][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.007333s)
+[2023.03.29-05.34.14:657][201]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.34.14:657][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.34.14:657][201]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.34.14:657][201]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2023.03.29-05.34.14:723][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.29-05.34.14:728][201]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.34.14:728][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.34.14:728][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.34.14:730][201]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.34.14:730][201]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.34.14:730][201]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.34.14:732][201]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.34.14:777][201]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.34.14:777][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.34.14:777][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.34.14:777][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.34.14:778][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.03.29-05.34.14:778][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.03.29-05.34.14:779][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.03.29-05.34.14:780][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.03.29-05.34.14:780][201]LogInit: FAudioDevice initialized.
+[2023.03.29-05.34.14:780][201]LogAudio: Display: Audio Device (ID: 14) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.34.14:804][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.34.14:804][201]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.34.14:806][201]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.34.14
+[2023.03.29-05.34.14:806][201]LogWorld: Bringing up level for play took: 0.002569
+[2023.03.29-05.34.14:809][201]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.03.29-05.34.14:811][201]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.34.14:811][201]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.34.14:811][201]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.34.14:811][201]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.34.14:813][201]PIE: Server logged in
+[2023.03.29-05.34.14:813][201]PIE: Play in editor total start time 0.165 seconds.
+[2023.03.29-05.34.14:856][201]LogViewport: Scene viewport resized to 1321x920, mode Windowed.
+[2023.03.29-05.34.18:494][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.34.18:494][342]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.34.18:495][342]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.34.18:508][342]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.34.18:508][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.34.18:514][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.34.18:518][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.34.18:533][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.29-05.34.18:536][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.29-05.34.18:544][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.03.29-05.34.18:588][343]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.03.29-05.34.24:359][542]Cmd: DELETE
+[2023.03.29-05.34.24:359][542]Cmd: ACTOR DELETE
+[2023.03.29-05.34.24:394][542]LogEditorActor: Deleted Actor: BP_Dwarf_C
+[2023.03.29-05.34.24:412][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.03.29-05.34.24:416][542]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2023.03.29-05.34.27:827][717]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.34.27:827][717]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.34.27:829][717]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_5
+[2023.03.29-05.34.27:829][717]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_5
+[2023.03.29-05.34.28:736][771]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.34.28:736][771]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.34.28:738][771]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_6
+[2023.03.29-05.34.28:739][771]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_6
+[2023.03.29-05.34.44:764][713]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.34.44:780][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.34.44:780][713]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:34:44 PM)
+[2023.03.29-05.34.44:780][713]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.34.44:785][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005507s)
+[2023.03.29-05.34.44:785][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005575s)
+[2023.03.29-05.34.44:785][713]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.34.44:785][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.34.44:786][713]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.34.44:787][713]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2023.03.29-05.34.44:807][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.03.29-05.34.44:823][713]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.34.44:823][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.34.44:823][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.34.44:823][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.34.44:823][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.34.44:823][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.34.44:826][713]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.34.44:870][713]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.34.44:870][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.34.44:870][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.34.44:870][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.34.44:871][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.03.29-05.34.44:871][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.03.29-05.34.44:873][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.03.29-05.34.44:873][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.03.29-05.34.44:873][713]LogInit: FAudioDevice initialized.
+[2023.03.29-05.34.44:873][713]LogAudio: Display: Audio Device (ID: 15) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.34.44:901][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.34.44:903][713]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.34.44:905][713]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.34.44
+[2023.03.29-05.34.44:905][713]LogWorld: Bringing up level for play took: 0.002875
+[2023.03.29-05.34.44:907][713]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.03.29-05.34.44:908][713]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.34.44:908][713]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.34.44:908][713]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.34.44:909][713]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.34.44:910][713]PIE: Server logged in
+[2023.03.29-05.34.44:911][713]PIE: Play in editor total start time 0.131 seconds.
+[2023.03.29-05.34.44:951][713]LogViewport: Scene viewport resized to 1323x930, mode Windowed.
+[2023.03.29-05.34.52:574][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.34.52:575][ 74]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.34.52:575][ 74]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.34.52:589][ 74]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.34.52:589][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.34.52:601][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.34.52:606][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.34.52:624][ 74]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-05.34.52:624][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.29-05.34.52:626][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.29-05.34.52:634][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.03.29-05.34.52:680][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.29-05.35.01:518][466]Cmd: DELETE
+[2023.03.29-05.35.01:518][466]Cmd: ACTOR DELETE
+[2023.03.29-05.35.01:522][466]LogEditorActor: Deleted Actor: BP_Dwarf_C
+[2023.03.29-05.35.01:555][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.03.29-05.35.01:565][466]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2023.03.29-05.35.04:854][638]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.35.04:854][638]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.35.04:856][638]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_7
+[2023.03.29-05.35.04:857][638]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_7
+[2023.03.29-05.35.05:813][695]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.35.05:813][695]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Dwarf.BP_Dwarf_C
+[2023.03.29-05.35.05:815][695]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_8
+[2023.03.29-05.35.05:816][695]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Dwarf.BP_Dwarf as actor: BP_Dwarf_C /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_Dwarf_C_8
+[2023.03.29-05.35.07:908][803]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.35.07:923][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.35.07:923][803]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:35:07 PM)
+[2023.03.29-05.35.07:923][803]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.35.07:928][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004490s)
+[2023.03.29-05.35.07:928][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.004550s)
+[2023.03.29-05.35.07:928][803]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.35.07:928][803]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.35.07:928][803]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.35.07:929][803]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2023.03.29-05.35.07:947][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.03.29-05.35.07:951][803]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.35.07:951][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.35.07:951][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.35.07:951][803]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.35.07:951][803]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.35.07:951][803]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.35.07:954][803]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.35.07:998][803]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.35.07:998][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.35.07:998][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.35.07:998][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.35.07:999][803]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.03.29-05.35.07:999][803]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.03.29-05.35.08:001][803]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.03.29-05.35.08:001][803]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.03.29-05.35.08:001][803]LogInit: FAudioDevice initialized.
+[2023.03.29-05.35.08:001][803]LogAudio: Display: Audio Device (ID: 16) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.35.08:030][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.35.08:030][803]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.35.08:032][803]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.35.08
+[2023.03.29-05.35.08:033][803]LogWorld: Bringing up level for play took: 0.002653
+[2023.03.29-05.35.08:035][803]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.03.29-05.35.08:036][803]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.35.08:036][803]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.35.08:036][803]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.35.08:036][803]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.35.08:038][803]PIE: Server logged in
+[2023.03.29-05.35.08:038][803]PIE: Play in editor total start time 0.116 seconds.
+[2023.03.29-05.35.08:078][803]LogViewport: Scene viewport resized to 1324x940, mode Windowed.
+[2023.03.29-05.35.33:534][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.35.33:535][960]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.35.33:535][960]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.35.33:549][960]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.35.33:549][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.35.33:559][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.35.33:563][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.35.33:583][960]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-05.35.33:583][960]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.29-05.35.33:584][960]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.29-05.35.33:592][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.03.29-05.35.33:639][961]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.29-05.37.58:604][784]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.38.16:666][562]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_23.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_23.exp
+[2023.03.29-05.38.16:921][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.03.29-05.38.17:228][565]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2023.03.29-05.38.17:228][565]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.38.18:471][602]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.38.18:478][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.38.18:478][602]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:38:18 PM)
+[2023.03.29-05.38.18:478][602]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.38.18:484][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005060s)
+[2023.03.29-05.38.18:484][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005141s)
+[2023.03.29-05.38.18:484][602]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.38.18:484][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.38.18:484][602]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.38.18:484][602]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2023.03.29-05.38.18:548][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.03.29-05.38.18:554][602]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.29-05.38.18:554][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.38.18:555][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.38.18:555][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.38.18:555][602]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.38.18:555][602]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.38.18:555][602]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.38.18:558][602]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.38.18:606][602]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.38.18:606][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.38.18:606][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.38.18:606][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.38.18:607][602]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.03.29-05.38.18:607][602]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.03.29-05.38.18:608][602]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.03.29-05.38.18:608][602]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.03.29-05.38.18:608][602]LogInit: FAudioDevice initialized.
+[2023.03.29-05.38.18:608][602]LogAudio: Display: Audio Device (ID: 17) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.38.18:640][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.38.18:640][602]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.38.18:644][602]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.38.18
+[2023.03.29-05.38.18:644][602]LogWorld: Bringing up level for play took: 0.003962
+[2023.03.29-05.38.18:647][602]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.03.29-05.38.18:647][602]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.38.18:647][602]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.38.18:647][602]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.38.18:648][602]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.38.18:649][602]PIE: Server logged in
+[2023.03.29-05.38.18:650][602]PIE: Play in editor total start time 0.172 seconds.
+[2023.03.29-05.38.18:651][602]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:695][602]LogViewport: Scene viewport resized to 1327x950, mode Windowed.
+[2023.03.29-05.38.18:713][603]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:763][604]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:796][605]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:831][606]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:867][607]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:903][608]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:941][609]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.18:979][610]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:018][611]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:059][612]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:099][613]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:139][614]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:178][615]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:219][616]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:259][617]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:298][618]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:338][619]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:362][620]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:388][621]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:414][622]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:443][623]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:470][624]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:500][625]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:530][626]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:561][627]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:594][628]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:628][629]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:665][630]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:704][631]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:744][632]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:777][633]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:800][634]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:829][635]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:860][636]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:890][637]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:921][638]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:952][639]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.19:978][640]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:000][641]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:024][642]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:047][643]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:073][644]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:100][645]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:129][646]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:157][647]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:185][648]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:213][649]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:235][650]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:259][651]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:287][652]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:311][653]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:336][654]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:364][655]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:394][656]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:425][657]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:456][658]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:487][659]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:518][660]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:548][661]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:579][662]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:607][663]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:630][664]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:658][665]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:688][666]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:718][667]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:750][668]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:780][669]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:811][670]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:841][671]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:873][672]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:903][673]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:935][674]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:965][675]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.20:996][676]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:027][677]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:057][678]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:088][679]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:119][680]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:150][681]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:180][682]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:212][683]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:243][684]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:273][685]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:304][686]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:335][687]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:366][688]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:397][689]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:428][690]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:459][691]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:489][692]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:519][693]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:551][694]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:581][695]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:611][696]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:643][697]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:674][698]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:705][699]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:735][700]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:767][701]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:797][702]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:827][703]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:858][704]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:889][705]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:920][706]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:951][707]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.21:982][708]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:013][709]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:044][710]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:074][711]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:099][712]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:126][713]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:155][714]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:186][715]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:217][716]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:247][717]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:279][718]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:309][719]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:340][720]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:370][721]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:402][722]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:433][723]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:463][724]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:494][725]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:525][726]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:556][727]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:586][728]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:618][729]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:648][730]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:680][731]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:710][732]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:741][733]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:772][734]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:803][735]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:827][736]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:851][737]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:880][738]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:911][739]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:943][740]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.22:973][741]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:004][742]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:035][743]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:065][744]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:097][745]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:128][746]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:159][747]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:189][748]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:221][749]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:251][750]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:282][751]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:313][752]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:343][753]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:374][754]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:405][755]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:436][756]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:467][757]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:498][758]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:528][759]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:559][760]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:590][761]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:621][762]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:651][763]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:682][764]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:713][765]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:744][766]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:775][767]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:805][768]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:836][769]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:866][770]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:898][771]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:923][772]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:947][773]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.23:976][774]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:006][775]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:038][776]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:068][777]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:099][778]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:129][779]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:161][780]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:191][781]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:222][782]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:254][783]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:291][784]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:308][785]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:325][786]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:345][787]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:366][788]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:387][789]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:407][790]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:427][791]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:448][792]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:468][793]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:489][794]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:509][795]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:530][796]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:551][797]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:571][798]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:591][799]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:611][800]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:633][801]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:654][802]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:675][803]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:695][804]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:715][805]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:735][806]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:756][807]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:777][808]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:797][809]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:817][810]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:838][811]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:858][812]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:880][813]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:900][814]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:922][815]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:941][816]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:961][817]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.24:981][818]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:003][819]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:023][820]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:043][821]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:064][822]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:085][823]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:106][824]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:126][825]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:146][826]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:167][827]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:188][828]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:208][829]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:229][830]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:249][831]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:269][832]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:290][833]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:310][834]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:331][835]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:349][836]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:365][837]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:382][838]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:400][839]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:420][840]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:441][841]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:461][842]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:483][843]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:503][844]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:523][845]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:544][846]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:564][847]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:584][848]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:605][849]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:626][850]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:646][851]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:667][852]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:687][853]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:708][854]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:729][855]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:749][856]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:770][857]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:792][858]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:811][859]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:831][860]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:852][861]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:869][862]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:885][863]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:902][864]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:920][865]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:941][866]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:961][867]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.25:981][868]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:002][869]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:023][870]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:043][871]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:064][872]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:084][873]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:104][874]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:125][875]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:146][876]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:166][877]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:187][878]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:208][879]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:228][880]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:249][881]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:269][882]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:287][883]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:304][884]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:320][885]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:339][886]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:359][887]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:379][888]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:400][889]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:420][890]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:441][891]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:461][892]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:483][893]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:503][894]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:525][895]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:547][896]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:569][897]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:591][898]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:608][899]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:626][900]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:642][901]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:660][902]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:681][903]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:702][904]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:723][905]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:743][906]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:764][907]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:784][908]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:805][909]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:825][910]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:846][911]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:867][912]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:886][913]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:907][914]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:927][915]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:948][916]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:969][917]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.26:989][918]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:010][919]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:030][920]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:051][921]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:071][922]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:091][923]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:113][924]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:130][925]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:146][926]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:163][927]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:181][928]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:202][929]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:221][930]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:243][931]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:263][932]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:284][933]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:304][934]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:324][935]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:345][936]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:366][937]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:386][938]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:407][939]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:427][940]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:448][941]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:469][942]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:489][943]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:510][944]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:529][945]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:550][946]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:571][947]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:591][948]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:612][949]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:633][950]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:653][951]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:674][952]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:694][953]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:715][954]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:736][955]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:756][956]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:777][957]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:797][958]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:818][959]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:838][960]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:856][961]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:872][962]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:889][963]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:907][964]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:927][965]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:947][966]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:968][967]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.27:988][968]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:010][969]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:029][970]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:051][971]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:070][972]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:091][973]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:112][974]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:133][975]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:153][976]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:173][977]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:194][978]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:214][979]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:235][980]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:256][981]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:276][982]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:297][983]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:317][984]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:337][985]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:358][986]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:379][987]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:399][988]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:420][989]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:440][990]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:461][991]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:481][992]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:502][993]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:522][994]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:543][995]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:563][996]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:584][997]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:604][998]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:625][999]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:645][  0]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:666][  1]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:687][  2]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:707][  3]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:728][  4]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:749][  5]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:769][  6]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:790][  7]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:811][  8]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:832][  9]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:852][ 10]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:873][ 11]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:893][ 12]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:914][ 13]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:934][ 14]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:955][ 15]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:976][ 16]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.28:996][ 17]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:017][ 18]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:038][ 19]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:058][ 20]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:078][ 21]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:099][ 22]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:121][ 23]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:141][ 24]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:164][ 25]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:187][ 26]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:209][ 27]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:231][ 28]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:256][ 29]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:280][ 30]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:304][ 31]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:329][ 32]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:354][ 33]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:379][ 34]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:406][ 35]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:432][ 36]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:459][ 37]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:486][ 38]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:512][ 39]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:538][ 40]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:565][ 41]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:591][ 42]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:619][ 43]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:645][ 44]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:673][ 45]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:699][ 46]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:726][ 47]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:753][ 48]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:780][ 49]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:800][ 50]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:816][ 51]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:833][ 52]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:851][ 53]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:871][ 54]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:891][ 55]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:912][ 56]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:933][ 57]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:953][ 58]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:974][ 59]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.29:995][ 60]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:015][ 61]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:036][ 62]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:057][ 63]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:077][ 64]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:098][ 65]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:118][ 66]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:139][ 67]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:159][ 68]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:179][ 69]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:200][ 70]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:220][ 71]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:241][ 72]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:261][ 73]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:281][ 74]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:303][ 75]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:324][ 76]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:343][ 77]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:364][ 78]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:385][ 79]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:407][ 80]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:429][ 81]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:451][ 82]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:474][ 83]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:497][ 84]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:520][ 85]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:544][ 86]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:569][ 87]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:594][ 88]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:619][ 89]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:645][ 90]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:669][ 91]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:685][ 92]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:701][ 93]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:720][ 94]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:740][ 95]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:761][ 96]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:781][ 97]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:802][ 98]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:822][ 99]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:843][100]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:863][101]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:883][102]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:905][103]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:925][104]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:946][105]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:966][106]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.30:986][107]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:007][108]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:028][109]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:049][110]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:068][111]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:090][112]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:110][113]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:131][114]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:151][115]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:171][116]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:193][117]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:213][118]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:234][119]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:255][120]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:278][121]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:300][122]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:323][123]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:346][124]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:370][125]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:394][126]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:417][127]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:442][128]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:467][129]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:493][130]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:519][131]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:545][132]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:572][133]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:598][134]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:625][135]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:648][136]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:664][137]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:680][138]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:698][139]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:718][140]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:739][141]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:760][142]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:781][143]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:801][144]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:822][145]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:841][146]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:863][147]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:883][148]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:904][149]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:924][150]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:945][151]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:965][152]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.31:985][153]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:007][154]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:027][155]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:048][156]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:069][157]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:090][158]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:114][159]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:136][160]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:158][161]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:182][162]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:206][163]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:225][164]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:243][165]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:258][166]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:277][167]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:297][168]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:317][169]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:338][170]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:358][171]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:379][172]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:399][173]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:420][174]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:441][175]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:461][176]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:482][177]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:501][178]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:523][179]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:543][180]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:564][181]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:584][182]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:604][183]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:625][184]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:645][185]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:666][186]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:687][187]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:708][188]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:728][189]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:749][190]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:769][191]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:789][192]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:810][193]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:830][194]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:851][195]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:872][196]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:890][197]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:906][198]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:923][199]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:940][200]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:960][201]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.32:981][202]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:001][203]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:021][204]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:043][205]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:063][206]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:083][207]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:103][208]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:125][209]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:145][210]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:166][211]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:186][212]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:206][213]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:227][214]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:248][215]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:268][216]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:289][217]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:309][218]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:329][219]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:350][220]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:371][221]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:391][222]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:412][223]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:433][224]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:454][225]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:474][226]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:494][227]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:515][228]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:536][229]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:556][230]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:577][231]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:598][232]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:617][233]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:638][234]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:659][235]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:679][236]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:700][237]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:721][238]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:741][239]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:762][240]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:783][241]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:803][242]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:823][243]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:844][244]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:864][245]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:885][246]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:905][247]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:926][248]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:946][249]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:967][250]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.33:987][251]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:008][252]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:028][253]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:049][254]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:070][255]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:090][256]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:110][257]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:131][258]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:152][259]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:172][260]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:193][261]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:213][262]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:234][263]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:255][264]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:275][265]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:296][266]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:316][267]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:337][268]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:357][269]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:378][270]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:398][271]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:419][272]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:439][273]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:461][274]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:482][275]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:501][276]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:521][277]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:542][278]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:563][279]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:583][280]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:604][281]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:624][282]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:645][283]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:667][284]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:686][285]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:707][286]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:727][287]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:747][288]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:768][289]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:789][290]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:810][291]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:830][292]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:850][293]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:870][294]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:891][295]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:912][296]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:933][297]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:953][298]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:974][299]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.34:995][300]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:014][301]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:035][302]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:055][303]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:076][304]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:097][305]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:117][306]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:138][307]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:158][308]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:179][309]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:199][310]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:220][311]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:241][312]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:261][313]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:282][314]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:302][315]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:323][316]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:343][317]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:364][318]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:384][319]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:405][320]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:425][321]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:446][322]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:467][323]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:487][324]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:508][325]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:524][326]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:540][327]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:558][328]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:578][329]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:599][330]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:619][331]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:640][332]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:659][333]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:681][334]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:701][335]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:721][336]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:743][337]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:763][338]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:784][339]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:804][340]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:825][341]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:845][342]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:866][343]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:886][344]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:907][345]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:928][346]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:948][347]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:969][348]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.35:988][349]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:010][350]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:031][351]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:051][352]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:071][353]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:091][354]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:113][355]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:133][356]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:153][357]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:174][358]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:195][359]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:216][360]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:236][361]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:256][362]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:277][363]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:298][364]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:318][365]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:338][366]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:359][367]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:376][368]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:392][369]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:410][370]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:428][371]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:450][372]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:470][373]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:490][374]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:511][375]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:532][376]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:552][377]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:573][378]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:593][379]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:614][380]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:634][381]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:655][382]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:676][383]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:696][384]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:716][385]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:738][386]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:758][387]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:779][388]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:798][389]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:820][390]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:840][391]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:861][392]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:881][393]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:902][394]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:921][395]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:943][396]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:963][397]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.36:984][398]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:004][399]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:024][400]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:045][401]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:066][402]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:086][403]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:107][404]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:128][405]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:148][406]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:168][407]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:189][408]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:209][409]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:229][410]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:250][411]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:271][412]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:291][413]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:312][414]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:333][415]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:353][416]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:375][417]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:394][418]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:416][419]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:436][420]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:455][421]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:477][422]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:493][423]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:509][424]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:526][425]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:545][426]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:565][427]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:586][428]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:607][429]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:627][430]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:648][431]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:668][432]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:689][433]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:709][434]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:729][435]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:750][436]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:773][437]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:793][438]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:814][439]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:834][440]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:855][441]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:874][442]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:895][443]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:918][444]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:938][445]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:959][446]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:979][447]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.37:999][448]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:021][449]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:041][450]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:062][451]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:082][452]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:101][453]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:123][454]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:143][455]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:163][456]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:183][457]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:204][458]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:224][459]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:245][460]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:266][461]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:286][462]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:307][463]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:327][464]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:347][465]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:368][466]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:388][467]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:409][468]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:430][469]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:451][470]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:471][471]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:491][472]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:513][473]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:531][474]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:554][475]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:574][476]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:594][477]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:615][478]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:636][479]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:656][480]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:676][481]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:697][482]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:717][483]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:737][484]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:759][485]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:780][486]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:801][487]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:824][488]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:846][489]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:870][490]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:893][491]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:916][492]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:941][493]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:965][494]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.38:990][495]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:015][496]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:040][497]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:067][498]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:093][499]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:120][500]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:147][501]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:174][502]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:201][503]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:227][504]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:245][505]LogTemp: Warning: Can you see me?
+[2023.03.29-05.38.39:284][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.38.39:284][505]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.38.39:285][505]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.38.39:299][505]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.38.39:300][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.38.39:309][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.38.39:313][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.38.39:330][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.29-05.38.39:331][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.29-05.38.39:380][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.29-05.38.39:441][506]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.29-05.39.09:684][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.03.29-05.39.09:711][920]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto0
+[2023.03.29-05.39.09:711][920]LogSavePackage: Moving '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/TopDownExampleMap_Auto0B90470A44271CD5D53C0A1B36C5585AA.tmp' to '../../../../../../Users/Chuck/Documents/SSU/Spring 2023/CS-370/lab4_git_mar2723/TopDownShmup/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto0.umap'
+[2023.03.29-05.39.09:718][920]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.053
+[2023.03.29-05.39.09:718][920]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2023.03.29-05.40.42:019][253]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.40.49:911][707]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_24.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_24.exp
+[2023.03.29-05.40.50:073][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.03.29-05.40.50:384][711]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.40.50:384][711]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.40.52:558][791]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.40.52:567][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.40.52:567][791]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:40:52 PM)
+[2023.03.29-05.40.52:567][791]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.40.52:573][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006617s)
+[2023.03.29-05.40.52:573][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.006711s)
+[2023.03.29-05.40.52:573][791]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.40.52:573][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.40.52:574][791]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.40.52:574][791]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2023.03.29-05.40.52:642][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.03.29-05.40.52:648][791]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.40.52:648][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.40.52:648][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.40.52:649][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.40.52:649][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.40.52:649][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.40.52:651][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.40.52:695][791]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.40.52:695][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.40.52:695][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.40.52:695][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.40.52:696][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.03.29-05.40.52:696][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.03.29-05.40.52:698][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.03.29-05.40.52:698][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.03.29-05.40.52:698][791]LogInit: FAudioDevice initialized.
+[2023.03.29-05.40.52:698][791]LogAudio: Display: Audio Device (ID: 18) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.40.52:728][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.40.52:728][791]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.40.52:731][791]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.40.52
+[2023.03.29-05.40.52:731][791]LogWorld: Bringing up level for play took: 0.002931
+[2023.03.29-05.40.52:734][791]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.03.29-05.40.52:735][791]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.40.52:735][791]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.40.52:735][791]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.40.52:736][791]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.40.52:737][791]PIE: Server logged in
+[2023.03.29-05.40.52:738][791]PIE: Play in editor total start time 0.172 seconds.
+[2023.03.29-05.40.52:779][791]LogViewport: Scene viewport resized to 1329x960, mode Windowed.
+[2023.03.29-05.40.55:404][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.40.55:405][866]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.40.55:405][866]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.40.55:418][866]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.40.55:419][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.40.55:428][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.40.55:432][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.40.55:455][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.29-05.40.55:456][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.29-05.40.55:501][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.03.29-05.40.55:573][867]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.03.29-05.41.48:139][860]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.41.59:137][512]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_25.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_25.exp
+[2023.03.29-05.41.59:308][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.03.29-05.41.59:625][515]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.41.59:625][515]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.42.01:696][596]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.42.01:703][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.42.01:703][596]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:42:01 PM)
+[2023.03.29-05.42.01:703][596]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.42.01:708][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004809s)
+[2023.03.29-05.42.01:708][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.004886s)
+[2023.03.29-05.42.01:708][596]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.42.01:708][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.42.01:708][596]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.42.01:708][596]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2023.03.29-05.42.01:775][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.03.29-05.42.01:784][596]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.42.01:784][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.42.01:784][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.42.01:784][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.42.01:784][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.42.01:784][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.42.01:786][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.42.01:830][596]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.42.01:830][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.42.01:830][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.42.01:830][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.42.01:831][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.03.29-05.42.01:831][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.03.29-05.42.01:833][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.03.29-05.42.01:833][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.03.29-05.42.01:833][596]LogInit: FAudioDevice initialized.
+[2023.03.29-05.42.01:833][596]LogAudio: Display: Audio Device (ID: 19) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.42.01:861][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.42.01:863][596]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.42.01:866][596]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.42.01
+[2023.03.29-05.42.01:867][596]LogWorld: Bringing up level for play took: 0.004232
+[2023.03.29-05.42.01:870][596]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.03.29-05.42.01:871][596]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.42.01:871][596]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.42.01:871][596]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.42.01:871][596]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.42.01:874][596]PIE: Server logged in
+[2023.03.29-05.42.01:875][596]PIE: Play in editor total start time 0.172 seconds.
+[2023.03.29-05.42.01:919][596]LogViewport: Scene viewport resized to 1331x970, mode Windowed.
+[2023.03.29-05.42.12:434][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.42.12:434][ 11]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.42.12:435][ 11]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.42.12:449][ 11]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.42.12:449][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.42.12:461][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.42.12:466][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.42.12:484][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.29-05.42.12:486][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.29-05.42.12:495][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.29-05.42.12:540][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.03.29-05.43.36:822][847]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.43.36:837][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.43.36:837][847]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:43:36 PM)
+[2023.03.29-05.43.36:837][847]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.43.36:843][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004960s)
+[2023.03.29-05.43.36:843][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005038s)
+[2023.03.29-05.43.36:843][847]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.43.36:843][847]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.43.36:843][847]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.43.36:843][847]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2023.03.29-05.43.36:860][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.03.29-05.43.36:864][847]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.43.36:864][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.43.36:864][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.43.36:865][847]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.43.36:865][847]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.43.36:865][847]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.43.36:867][847]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.43.36:911][847]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.43.36:911][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.43.36:911][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.43.36:911][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.43.36:912][847]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.03.29-05.43.36:912][847]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.03.29-05.43.36:914][847]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.03.29-05.43.36:914][847]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.03.29-05.43.36:914][847]LogInit: FAudioDevice initialized.
+[2023.03.29-05.43.36:914][847]LogAudio: Display: Audio Device (ID: 20) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.43.36:939][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.43.36:939][847]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.43.36:941][847]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.43.36
+[2023.03.29-05.43.36:943][847]LogWorld: Bringing up level for play took: 0.002765
+[2023.03.29-05.43.36:946][847]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.03.29-05.43.36:947][847]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.43.36:947][847]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.43.36:947][847]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.43.36:947][847]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.43.36:949][847]PIE: Server logged in
+[2023.03.29-05.43.36:950][847]PIE: Play in editor total start time 0.113 seconds.
+[2023.03.29-05.43.36:991][847]LogViewport: Scene viewport resized to 1333x980, mode Windowed.
+[2023.03.29-05.43.40:385][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.43.40:385][  7]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.43.40:385][  7]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.43.40:405][  7]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.43.40:405][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.43.40:414][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.43.40:419][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.43.40:437][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.29-05.43.40:439][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.29-05.43.40:447][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.03.29-05.43.40:491][  8]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.03.29-05.43.42:124][ 92]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.43.46:248][336]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_26.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_26.exp
+[2023.03.29-05.43.46:429][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.03.29-05.43.46:721][339]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.43.46:721][339]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.43.49:199][444]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.43.49:207][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.43.49:207][444]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:43:49 PM)
+[2023.03.29-05.43.49:207][444]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.43.49:212][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005271s)
+[2023.03.29-05.43.49:212][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.005358s)
+[2023.03.29-05.43.49:212][444]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.29-05.43.49:212][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.29-05.43.49:213][444]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2023.03.29-05.43.49:213][444]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2023.03.29-05.43.49:277][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.03.29-05.43.49:286][444]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.29-05.43.49:286][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.29-05.43.49:286][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.29-05.43.49:286][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.29-05.43.49:286][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.29-05.43.49:286][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.29-05.43.49:288][444]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.29-05.43.49:333][444]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.29-05.43.49:333][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.29-05.43.49:334][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.29-05.43.49:334][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.29-05.43.49:334][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.03.29-05.43.49:334][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.03.29-05.43.49:336][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.03.29-05.43.49:336][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.03.29-05.43.49:336][444]LogInit: FAudioDevice initialized.
+[2023.03.29-05.43.49:336][444]LogAudio: Display: Audio Device (ID: 21) registered with world 'TopDownExampleMap'.
+[2023.03.29-05.43.49:363][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.43.49:363][444]LogLoad: Game class is 'TopDownShmupGameMode'
+[2023.03.29-05.43.49:365][444]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2023.03.28-22.43.49
+[2023.03.29-05.43.49:366][444]LogWorld: Bringing up level for play took: 0.002440
+[2023.03.29-05.43.49:368][444]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.03.29-05.43.49:368][444]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.43.49:368][444]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.03.29-05.43.49:368][444]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.43.49:369][444]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.03.29-05.43.49:370][444]PIE: Server logged in
+[2023.03.29-05.43.49:371][444]PIE: Play in editor total start time 0.166 seconds.
+[2023.03.29-05.43.49:411][444]LogViewport: Scene viewport resized to 1334x990, mode Windowed.
+[2023.03.29-05.43.57:934][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.29-05.43.57:935][786]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.43.57:935][786]LogSlate: Window 'TopDownShmup Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2023.03.29-05.43.57:951][786]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.29-05.43.57:951][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.43.57:959][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.29-05.43.57:964][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.29-05.43.57:982][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.29-05.43.57:983][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.29-05.43.57:985][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.29-05.43.58:033][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.03.29-05.43.58:101][787]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.03.29-05.45.47:647][871]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.03.29-05.45.53:616][225]LogLiveCoding: Display:    Creating library C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_27.lib and object C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Binaries\Win64\UnrealEditor-TopDownShmup.patch_27.exp
+[2023.03.29-05.45.53:794][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.03.29-05.45.54:086][228]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.03.29-05.45.54:086][228]LogLiveCoding: Display: Live coding succeeded
+[2023.03.29-05.45.56:320][315]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.03.29-05.45.56:328][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.29-05.45.56:328][315]PIE: New page: PIE session: TopDownExampleMap (Mar 28, 2023, 3:45:56 PM)
+[2023.03.29-05.45.56:329][315]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2023.03.29-05.45.57:878][315]LogWindows: Error: === Critical error: ===
+[2023.03.29-05.45.57:878][315]LogWindows: Error: 
+[2023.03.29-05.45.57:878][315]LogWindows: Error: Fatal error!
+[2023.03.29-05.45.57:878][315]LogWindows: Error: 
+[2023.03.29-05.45.57:878][315]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000000001e0
+[2023.03.29-05.45.57:878][315]LogWindows: Error: 
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce5031968 UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce5033a5f UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce5530d7e UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffc4e1e1290 UnrealEditor-TopDownShmup.patch_27.exe!ADwarfCharacter::ADwarfCharacter() [C:\Users\Chuck\Documents\SSU\Spring 2023\CS-370\lab4_git_mar2723\TopDownShmup\Source\TopDownShmup\DwarfCharacter.cpp:16]
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd1172641c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd1140e2f6 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd113f7d21 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce4fd99be UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce502df13 UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd11727a18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce622838d UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd045ca765 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffce4dc9926 UnrealEditor-Engine.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd045c885c UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd045fece6 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd045ca3c2 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd0461d4aa UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd04620cb7 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd046205a1 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd03fbdcf3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd0494aac6 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e98182f6 UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e9830d9c UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e9830e8a UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e9833c4d UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e9845564 UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ff6e9848736 UnrealEditor.exe!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd57d326bd KERNEL32.DLL!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: [Callstack] 0x00007ffd59f0dfb8 ntdll.dll!UnknownFunction []
+[2023.03.29-05.45.57:878][315]LogWindows: Error: 
+[2023.03.29-05.45.57:884][315]LogExit: Executing StaticShutdownAfterError
+[2023.03.29-05.45.57:892][315]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.03.29-05.45.57:892][315]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2023.03.29-05.45.57:892][315]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.03.29-05.45.57:901][315]Log file closed, 03/28/23 22:45:57
