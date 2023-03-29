@@ -30,6 +30,9 @@ public:
 	ATopDownShmupCharacter();
     
     virtual void BeginPlay() override;
+    
+    void OnStartFire();
+    void OnStopFire();
 
 	/** Returns TopDownCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }

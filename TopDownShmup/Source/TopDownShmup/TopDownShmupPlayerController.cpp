@@ -23,10 +23,8 @@ void ATopDownShmupPlayerController::PlayerTick(float DeltaTime)
 	{
 		/* commented out the below function to prevent mouse movement */
 		//MoveToMouseCursor();
-
-
-		
 	}
+
 }
 
 void ATopDownShmupPlayerController::SetupInputComponent()
@@ -42,6 +40,11 @@ void ATopDownShmupPlayerController::SetupInputComponent()
 	// support touch devices 
 	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ATopDownShmupPlayerController::MoveToTouchLocation);
 	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &ATopDownShmupPlayerController::MoveToTouchLocation);
+ 
+    
+    // support firing function
+    InputComponent->BindAction("Fire", IE_Pressed, this, &ATopDownShmupPlayerController::OnStartFire);
+    InputComponent->BindAction("Fire", IE_Released, this, &ATopDownShmupPlayerController::OnStopFire);
 
 	// support keyboard movement
 	InputComponent->BindAxis("MoveForward", this, &ATopDownShmupPlayerController::MoveForward);
@@ -162,4 +165,16 @@ void ATopDownShmupPlayerController::UpdateMouse()
 
 		}
 	}
+}
+
+void ATopDownShmupPlayerController::OnStartFire() {
+    APawn* const Pawn = GetPawn();
+    ATopDownShmupCharacter *MyCharacter = Cast<ATopDownShmupCharacter>(Pawn);
+    MyCharacter->OnStartFire();
+}
+
+void ATopDownShmupPlayerController::OnStopFire() {
+    APawn* const Pawn = GetPawn();
+    ATopDownShmupCharacter *MyCharacter = Cast<ATopDownShmupCharacter>(Pawn);
+    MyCharacter->OnStopFire();
 }

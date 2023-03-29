@@ -1,6 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/PlayerController.h"
+#include "TopDownShmupCharacter.h"
 #include "TopDownShmupPlayerController.generated.h"
 
 UCLASS()
@@ -14,6 +15,9 @@ public:
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
+    
+    //firing tings?
+    uint32 bFire : 1;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
@@ -39,6 +43,10 @@ protected:
 
 	/* Mouse look */
 	void UpdateMouse();
+    
+    // Start and stop firing
+    void OnStartFire();
+    void OnStopFire();
 };
 
 
