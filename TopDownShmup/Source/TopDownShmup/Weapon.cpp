@@ -3,6 +3,7 @@
 
 #include "Weapon.h"
 
+
 // Sets default values
 AWeapon::AWeapon()
 {
@@ -32,11 +33,25 @@ void AWeapon::Tick(float DeltaTime)
 
 //Start firing
 void AWeapon::OnStartFire() {
-    
+    SavedAC = PlayWeaponSound(FireLoopSound);
+    MuzzlePSC = UGameplayStatics::SpawnEmitterAttached(MuzzleFX, WeaponMesh, TEXT("MuzzleFlashSocket"));
 }
 
 
 //Stop firing
 void AWeapon::OnStopFire() {
+    SavedAC->UAudioComponent::Stop();
+    PlayWeaponSound(FireFinishSound);
+    MuzzlePSC->UParticleSystemComponent::DeactivateSystem();
     
+}
+
+UAudioComponent* AWeapon::PlayWeaponSound(USoundCue* Sound) {
+    UAudioComponent* AC = NULL;
+    if (Sound) {
+        AC = UGameplayStatics::SpawnSoundAttached(Sound, RootComponent);
+        //UGameplayStatics::SpawnEmitterAttached(MuzzleFX, WeaponMesh, TEXT("MuzzleFlashSocket"));
+    }
+    
+    return AC;
 }

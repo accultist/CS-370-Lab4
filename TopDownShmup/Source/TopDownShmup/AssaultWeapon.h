@@ -17,5 +17,14 @@ class TOPDOWNSHMUP_API AAssaultWeapon : public AWeapon
 public:
     virtual void OnStartFire() override;
     virtual void OnStopFire() override;
+    
+    float FireRate(0.5f);
+    float WeaponRange(10000.0f);
+    
+    UPROPERTY(EditDefaultsOnly)
+    UParticleSystem* HitEffect;
+    
+protected:
+    void WeaponTrace();
 	
 };

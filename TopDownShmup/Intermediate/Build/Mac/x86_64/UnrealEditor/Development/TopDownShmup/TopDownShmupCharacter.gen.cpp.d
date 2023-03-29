@@ -3116,5 +3116,40 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/RootMotionSource.generated.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Character.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup/Weapon.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/SoundCue.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/SoundNode.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SoundNode.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SoundCue.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/AudioComponent.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Audio/SoundParameterControllerInterface.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SoundParameterControllerInterface.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioExtensions/Public/IAudioParameterTransmitter.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/AudioMixerClockHandle.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/QuartzSubscription.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SignalProcessing/Public/DSP/VolumeFader.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/QuartzSubsystem.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/AudioMixerClockManager.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/AudioMixerClock.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/QuartzMetronome.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AudioMixer/QuartzSubsystem.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AudioMixer/AudioMixerClockHandle.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixer/Public/Quartz/AudioMixerQuantizedCommands.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/AudioComponent.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/KismetSystemLibrary.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/DialogueTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameplayStaticsTypes.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameplayStatics.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Particles/ParticleSystemComponent.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Particles/ParticleSystem.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Particles/ParticlePerfStats.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ParticleSystem.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Particles/Emitter.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Emitter.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ParticleSystemComponent.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/Weapon.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/TopDownShmupCharacter.generated.h

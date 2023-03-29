@@ -42,6 +42,9 @@ void ATopDownShmupCharacter::BeginPlay()
     if (WeaponClass)
     {
         UWorld* World = GetWorld();
+        
+        MyPawn = ?
+        
         if (World)
         {
             FActorSpawnParameters SpawnParams;
@@ -61,5 +64,18 @@ void ATopDownShmupCharacter::BeginPlay()
             FAttachmentTransformRules(EAttachmentRule::KeepRelative, true), TEXT("WeaponPoint"));
             }
         }
+    }
+
+}
+
+void ATopDownShmupCharacter::OnStartFire() {
+    if (MyWeapon) {
+        MyWeapon->OnStartFire();
+    }
+}
+
+void ATopDownShmupCharacter::OnStopFire() {
+    if (MyWeapon) {
+        MyWeapon->OnStopFire();
     }
 }

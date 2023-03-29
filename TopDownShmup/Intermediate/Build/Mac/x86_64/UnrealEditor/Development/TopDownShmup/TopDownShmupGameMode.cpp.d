@@ -3307,8 +3307,12 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameplayStaticsTypes.generated.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameplayStatics.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup/TopDownShmupPlayerController.h \
-  /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/TopDownShmupPlayerController.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup/TopDownShmupCharacter.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Source/TopDownShmup/Weapon.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/SoundCue.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Sound/SoundNode.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SoundNode.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SoundCue.generated.h \
   /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/Weapon.generated.h \
-  /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/TopDownShmupCharacter.generated.h
+  /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/TopDownShmupCharacter.generated.h \
+  /Users/new/Documents/CS-370-Lab4/TopDownShmup/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TopDownShmup/TopDownShmupPlayerController.generated.h
