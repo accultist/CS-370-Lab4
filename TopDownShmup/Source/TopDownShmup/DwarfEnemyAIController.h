@@ -55,11 +55,6 @@ public:
 	
 	// called when ai controller possess pawn
 	virtual void OnPossess(APawn* InPawn) override;
-
-	// called when dwarf reaches player
-	//virtual void OnMoveCompleted(FAIRequestID RequestID, EPathFollowingResult::Type Result) override;
-//	virtual void OnMoveCompleted(FAIRequestID RequestID, EPathFollowingResult::Type Result) override;
-	//void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
 	
 	// called to return the current state of dwarf
 	EDwarfState GetCurrentState() const;

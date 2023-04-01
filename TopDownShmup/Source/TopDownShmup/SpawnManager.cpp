@@ -31,6 +31,7 @@ void ASpawnManager::Tick(float DeltaTime)
 void ASpawnManager::SpawnDwarf() {
 	if (Character)
 	{
+		// pointer to game world
 		UWorld* World = GetWorld();
 		if (World)
 		{
@@ -40,11 +41,13 @@ void ASpawnManager::SpawnDwarf() {
 
 			int32 i = FMath::RandRange(0, arrSpawnPoints.Num() - 1);
 
-			FVector loc = arrSpawnPoints[i]->GetActorLocation();
+			// vector for spawn points set in game editor
+			FVector vecLocations = arrSpawnPoints[i]->GetActorLocation();
 
+			// 0 coordinates for rotation
 			FRotator Rotation(0.0f, 0.0f, 0.0f);
 
-			ADwarf = World->SpawnActor<ADwarfCharacter>(Character, loc, Rotation, SpawnParams);
+			ADwarf = World->SpawnActor<ADwarfCharacter>(Character, vecLocations, Rotation, SpawnParams);
 			if (ADwarf) {
 
 				ADwarf->SpawnDefaultController();

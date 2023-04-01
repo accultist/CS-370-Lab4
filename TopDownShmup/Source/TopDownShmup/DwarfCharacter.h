@@ -47,7 +47,7 @@ public:
 
 	
 
-//private:
+private:
 	// editable properties
 	UPROPERTY(EditAnywhere)
 		float fHealth;			// float value for dwarf health
@@ -64,14 +64,6 @@ public:
 
 	bool bDead;					// boolean value for determining if dwarf is dead or not
 
-
-//protected:
-	// Called when the game starts or when spawned
-	//virtual void BeginPlay() override;
-
-//public:
-	// Called every frame
-	//virtual void Tick(float DeltaTime) override;
 };
 
 

@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDownShmup_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE09203AC,
+				0xD88420FA,
 				0xE6651C51,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeTopDownShmup_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_TopDownShmup.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TopDownShmup(Z_Construct_UPackage__Script_TopDownShmup, TEXT("/Script/TopDownShmup"), Z_Registration_Info_UPackage__Script_TopDownShmup, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE09203AC, 0xE6651C51));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TopDownShmup(Z_Construct_UPackage__Script_TopDownShmup, TEXT("/Script/TopDownShmup"), Z_Registration_Info_UPackage__Script_TopDownShmup, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD88420FA, 0xE6651C51));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

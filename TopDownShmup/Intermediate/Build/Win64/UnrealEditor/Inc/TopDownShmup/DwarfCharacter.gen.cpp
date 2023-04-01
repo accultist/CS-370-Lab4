@@ -82,12 +82,12 @@ void EmptyLinkFunctionForGeneratedCodeDwarfCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth_MetaData[] = {
 		{ "Category", "DwarfCharacter" },
-		{ "Comment", "//private:\n// editable properties\n" },
+		{ "Comment", "// editable properties\n" },
 		{ "ModuleRelativePath", "DwarfCharacter.h" },
-		{ "ToolTip", "private:\n editable properties" },
+		{ "ToolTip", "editable properties" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth = { "fHealth", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADwarfCharacter, fHealth), METADATA_PARAMS(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth = { "fHealth", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADwarfCharacter, fHealth), METADATA_PARAMS(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fHealth_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage_MetaData[] = {
 		{ "Category", "DwarfCharacter" },
@@ -96,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeDwarfCharacter() {}
 		{ "ToolTip", "float value for dwarf health" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage = { "fAttackDamage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADwarfCharacter, fAttackDamage), METADATA_PARAMS(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage = { "fAttackDamage", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADwarfCharacter, fAttackDamage), METADATA_PARAMS(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_fAttackDamage_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADwarfCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_AttackAnim,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADwarfCharacter_Statics::NewProp_DeathAnim,
@@ -139,9 +139,9 @@ void EmptyLinkFunctionForGeneratedCodeDwarfCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADwarfCharacter, ADwarfCharacter::StaticClass, TEXT("ADwarfCharacter"), &Z_Registration_Info_UClass_ADwarfCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADwarfCharacter), 2705394058U) },
+		{ Z_Construct_UClass_ADwarfCharacter, ADwarfCharacter::StaticClass, TEXT("ADwarfCharacter"), &Z_Registration_Info_UClass_ADwarfCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADwarfCharacter), 538646355U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfCharacter_h_1256911226(TEXT("/Script/TopDownShmup"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfCharacter_h_574660082(TEXT("/Script/TopDownShmup"),
 		Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_DwarfCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

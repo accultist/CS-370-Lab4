@@ -16,9 +16,6 @@ ADwarfCharacter::ADwarfCharacter()
 	fHealth = 20.0f;			// float value for health
 	fAttackDamage = 10.0f;		// float value for damage output
 	bDead = false;				// boolean to determine if the dwarf is dead
-
-	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	//PrimaryActorTick.bCanEverTick = true;
 }
 
 // function initiated when attack is warranted
@@ -77,7 +74,9 @@ float ADwarfCharacter::TakeDamage(float Damage, struct FDamageEvent const& Damag
 // function is called when attack is unnecessary
 void ADwarfCharacter::StopAttack()
 {
-	StopAnimMontage();
+	// stop animation
+	StopAnimMontage(AttackAnim);
+	// clear timer
 	GetWorldTimerManager().ClearTimer(AttackTimerHandle);
 }
 
@@ -96,11 +95,3 @@ void ADwarfCharacter::DestroyCorpse()
 	// clear timer for death
 	GetWorldTimerManager().ClearTimer(DeathTimerHandle);
 }
-
-// Called when the game starts or when spawned
-//void ADwarfCharacter::BeginPlay(){ Super::BeginPlay();}
-
-// Called every frame
-//void ADwarfCharacter::Tick(float DeltaTime){Super::Tick(DeltaTime);}
-
-//void ADwarfCharacter::BeginPlay(){ Super::BeginPlay();}
