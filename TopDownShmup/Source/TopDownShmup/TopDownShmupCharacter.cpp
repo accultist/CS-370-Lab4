@@ -41,6 +41,8 @@ void ATopDownShmupCharacter::BeginPlay()
 {
     // Call base class BeginPlay
     Super::BeginPlay();
+    MyWeapon->MyPawn = this;
+    
     // Spawn the weapon, if one was specified
     if (WeaponClass)
     {
