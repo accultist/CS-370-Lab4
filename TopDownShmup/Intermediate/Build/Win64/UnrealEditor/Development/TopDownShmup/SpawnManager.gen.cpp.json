@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownshmup\\spawnmanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\topdownshmupeditor\\development\\engine\\sharedpch.engine.h.pch",
+        "Includes": [
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\unrealeditor\\development\\topdownshmup\\definitions.topdownshmup.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\source\\topdownshmup\\spawnmanager.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\targetpoint.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\targetpoint.generated.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\source\\topdownshmup\\dwarfcharacter.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\source\\topdownshmup\\enemycharacter.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownshmup\\enemycharacter.generated.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownshmup\\dwarfcharacter.generated.h",
+            "c:\\users\\chuck\\documents\\ssu\\spring 2023\\cs-370\\lab4_git_mar2723\\topdownshmup\\intermediate\\build\\win64\\unrealeditor\\inc\\topdownshmup\\spawnmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

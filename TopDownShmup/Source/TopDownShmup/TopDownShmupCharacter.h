@@ -22,21 +22,46 @@ class ATopDownShmupCharacter : public ACharacter
     TSubclassOf<AWeapon> WeaponClass;
     
     
-private:
-    AWeapon* MyWeapon;
-
-
 public:
 	ATopDownShmupCharacter();
     
-    virtual void BeginPlay() override;
+	// death animation
+	UPROPERTY(EditDefaultsOnly)
+	UAnimMontage* DeathAnim;
     
+	// function when weapon starts firing
     void OnStartFire();
+	// function for when weapon should stop firing
     void OnStopFire();
+	// getter function for returning bool if player is dead
+	bool IsDead();
+	// function for when player is dead
+	void StartDeath();
+
+	// override TakeDamage
+	virtual float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 
 	/** Returns TopDownCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+private:
+	// pointer to weapon
+	AWeapon* MyWeapon;
+
+	// timer for death
+	FTimerHandle DeathTimerHandle;
+
+	// adjustable value for health
+	UPROPERTY(EditAnywhere)
+	float fHealth;
+
+	// boolean value to determine if player is dead
+	bool bDead;
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 };
 

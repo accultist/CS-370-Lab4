@@ -4,10 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "EnemyAIController.h"
+#include "Animation/AnimInstance.h"
 #include "DwarfEnemyAIController.generated.h"
 
-//enum to store the current state of dwarf
-UENUM(BlueprintType)
+//enum to reflect the current state of dwarf
+
+enum class EDwarfState : short
+{
+	EStart, EChasing, EAttacking, EDead, EUnknown
+};
+
+/*UENUM(BlueprintType)
 enum class EDwarfState : uint8
 {
 	EStart UMETA(DisplayName = "Start"),
@@ -15,7 +22,7 @@ enum class EDwarfState : uint8
 	EAttacking UMETA(DisplayName = "Attacking"),
 	EDead UMETA(DisplayName = "Dead"),
 	EUnknown UMETA(DisplayName = "Unknown")
-};
+};*/
 
 /**
  * 
@@ -25,14 +32,40 @@ class TOPDOWNSHMUP_API ADwarfEnemyAIController : public AEnemyAIController
 {
 	GENERATED_BODY()
 
-	
-	void OnPossess(APawn* InPawn);
+//public:
+	//void OnPossess(APawn* InPawn);
 
-	void MoveToActorFunc(APawn* InPawn);
+	//void MoveToActorFunc(APawn* InPawn);
 
 
 public:
-	APawn* InPawn;
+
+	// constructor
+	ADwarfEnemyAIController();
+
+	// pointer to dwarf pawn
+	APawn* DwarfPawn;
+	
+	float MaxRange;
+
+	/* overide functions */
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	
+	// called when ai controller possess pawn
+	virtual void OnPossess(APawn* InPawn) override;
+
+	// called when dwarf reaches player
+	//virtual void OnMoveCompleted(FAIRequestID RequestID, EPathFollowingResult::Type Result) override;
+//	virtual void OnMoveCompleted(FAIRequestID RequestID, EPathFollowingResult::Type Result) override;
+	//void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
+	
+	// called to return the current state of dwarf
+	EDwarfState GetCurrentState() const;
+
+	// set a new status for the dwarf
+	void SetCurrentState(EDwarfState NewState);
 
 	bool bMoveComplete;
 
@@ -42,24 +75,16 @@ public:
 	/* tracker for vec position of dwarf */
 	FVector vecDwarfEnemy;
 
-	/* return the current state of dwarf */
-	UFUNCTION(BlueprintPure, Category = "Status")
-	EDwarfState GetCurrentState() const;
-
-	/* set a new status for the dwarf */
-	void SetCurrentState(EDwarfState NewState);
-
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-//private:
-	//UFUNCTION()
-	void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
+protected:
+	// ovveride function from parent class
+	virtual void BeginPlay() override;
 
 private:
 	/* keeps track of the current state of dwarf */
 	EDwarfState CurrentState;
+
+	// track range between dwarf and player
+	float CurrentRange;
 
 	/* handle any function calls that rely upon changing the state of the dwarf */
 	void HandleNewState(EDwarfState NewState);

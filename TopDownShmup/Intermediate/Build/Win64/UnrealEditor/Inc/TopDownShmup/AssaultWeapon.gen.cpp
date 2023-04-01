@@ -30,6 +30,18 @@ void EmptyLinkFunctionForGeneratedCodeAssaultWeapon() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_fFireRate_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_fFireRate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_fWeaponRange_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_fWeaponRange;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_fAttackDamage_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_fAttackDamage;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_HitEffect_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_HitEffect;
@@ -49,13 +61,45 @@ void EmptyLinkFunctionForGeneratedCodeAssaultWeapon() {}
 	};
 #endif
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fFireRate_MetaData[] = {
 		{ "Category", "AssaultWeapon" },
+		{ "Comment", "// configurable properties\n// float value for how fast weapon fires\n" },
 		{ "ModuleRelativePath", "AssaultWeapon.h" },
+		{ "ToolTip", "configurable properties\nfloat value for how fast weapon fires" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect = { "HitEffect", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAssaultWeapon, HitEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fFireRate = { "fFireRate", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAssaultWeapon, fFireRate), METADATA_PARAMS(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fFireRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fFireRate_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fWeaponRange_MetaData[] = {
+		{ "Category", "AssaultWeapon" },
+		{ "Comment", "// float value for handling the range of gun\n" },
+		{ "ModuleRelativePath", "AssaultWeapon.h" },
+		{ "ToolTip", "float value for handling the range of gun" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fWeaponRange = { "fWeaponRange", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAssaultWeapon, fWeaponRange), METADATA_PARAMS(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fWeaponRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fWeaponRange_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fAttackDamage_MetaData[] = {
+		{ "Category", "AssaultWeapon" },
+		{ "Comment", "// float value for damage per hit of gun\n" },
+		{ "ModuleRelativePath", "AssaultWeapon.h" },
+		{ "ToolTip", "float value for damage per hit of gun" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fAttackDamage = { "fAttackDamage", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAssaultWeapon, fAttackDamage), METADATA_PARAMS(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fAttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fAttackDamage_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData[] = {
+		{ "Category", "Effects" },
+		{ "Comment", "// pointer to particle effect of bullets/ray\n" },
+		{ "ModuleRelativePath", "AssaultWeapon.h" },
+		{ "ToolTip", "pointer to particle effect of bullets/ray" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect = { "HitEffect", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAssaultWeapon, HitEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAssaultWeapon_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fFireRate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fWeaponRange,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_fAttackDamage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAssaultWeapon_Statics::NewProp_HitEffect,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAssaultWeapon_Statics::StaticCppClassTypeInfo = {
@@ -94,9 +138,9 @@ void EmptyLinkFunctionForGeneratedCodeAssaultWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AAssaultWeapon, AAssaultWeapon::StaticClass, TEXT("AAssaultWeapon"), &Z_Registration_Info_UClass_AAssaultWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAssaultWeapon), 3338059303U) },
+		{ Z_Construct_UClass_AAssaultWeapon, AAssaultWeapon::StaticClass, TEXT("AAssaultWeapon"), &Z_Registration_Info_UClass_AAssaultWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAssaultWeapon), 3377286014U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_1195212205(TEXT("/Script/TopDownShmup"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_833258345(TEXT("/Script/TopDownShmup"),
 		Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

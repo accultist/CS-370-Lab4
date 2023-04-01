@@ -20,10 +20,7 @@ AWeapon::AWeapon()
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
-
-    //APawn* const MyPawn =  GetPawn();
     
-	
 }
 
 // Called every frame

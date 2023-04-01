@@ -36,7 +36,7 @@ public: \
 
 #define FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAssaultWeapon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAssaultWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAssaultWeapon) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAssaultWeapon); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAssaultWeapon); \
@@ -48,8 +48,6 @@ public:
 
 
 #define FID_TopDownShmup_Source_TopDownShmup_AssaultWeapon_h_17_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAssaultWeapon() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAssaultWeapon(AAssaultWeapon&&); \

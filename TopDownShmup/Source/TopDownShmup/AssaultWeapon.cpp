@@ -2,18 +2,32 @@
 
 
 #include "AssaultWeapon.h"
+#include "TimerManager.h"
+#include "Kismet/GameplayStatics.h"
+#include "DwarfCharacter.h"
 
+// constructor
+AAssaultWeapon::AAssaultWeapon()
+{
+    // default values
+    fFireRate = 0.05f;          // float value for firing rate of gun
+    fWeaponRange = 10000.0f;    // float value for the overall range of weapon, 1000.f is very far
+    fAttackDamage = 2.0f;       // float value for attack damage, 2.0f per shot
+}
 
+// function for when weapon is being fired
 void AAssaultWeapon::OnStartFire() {
     Super::OnStartFire();
     // Call WeaponTrace FireRate per second, starting 0 seconds from now.
-   // GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AAssaultWeapon::WeaponTrace, FireRate, true, 0.5f);
+    GetWorldTimerManager().SetTimer(WeaponTimerHandle, this, &AAssaultWeapon::WeaponTrace, fFireRate, true);
 }
 
-
+// functionf for when weapon is no longer fired
 void AAssaultWeapon::OnStopFire() {
     Super::OnStopFire();
-    
+
+    // end weapon trace call
+    GetWorldTimerManager().ClearTimer(WeaponTimerHandle);
 }
 
 void AAssaultWeapon::WeaponTrace()
@@ -21,37 +35,35 @@ void AAssaultWeapon::WeaponTrace()
     static FName WeaponFireTag = FName(TEXT("WeaponTrace"));
     static FName MuzzleSocket = FName(TEXT("MuzzleFlashSocket"));
     
-    // Once we've called this function enough times, clear the Timer.
-    //if (--RepeatingCallsRemaining <= 0)
-   // {
-      //  GetWorldTimerManager().ClearTimer(MemberTimerHandle);
-        // MemberTimerHandle can now be reused for any other Timer.
-        
-   // }
-    
     // Start from the muzzle's position
-    FVector StartPos = WeaponMesh->GetSocketLocation(MuzzleSocket);
+    FVector vecStartPos = WeaponMesh->GetSocketLocation(MuzzleSocket);
     
     // Get forward vector of MyPawn
-    FVector Forward = MyPawn->GetActorForwardVector();
+    FVector vecForward = MyPawn->GetActorForwardVector();
     
     // Calculate end position
-    FVector EndPos = StartPos + (Forward * WeaponRange);
-    
+    FVector vecEndPos = vecStartPos + (vecForward * fWeaponRange);
     
     // Perform line trace to retrieve hit info
     FCollisionQueryParams TraceParams(WeaponFireTag, true, GetInstigator());
     
     // This fires the ray and checks against all objects w/ collision
     FHitResult Hit(ForceInit);
-    GetWorld()->LineTraceSingleByObjectType(Hit, StartPos, EndPos,
+    GetWorld()->LineTraceSingleByObjectType(Hit, vecStartPos, vecEndPos,
     FCollisionObjectQueryParams::AllObjects, TraceParams);
     
     // Did this hit anything?
     if (Hit.bBlockingHit)
     {
-    //    HitEffect->UGameplayStatics::SpawnEmitterAtLocation(this, HitEffect, EndPos);
-        
+        // spawn impact particle at hit location
+        UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitEffect, Hit.Location);
+
+        // if dwarf was hit, reduce it's health
+        ADwarfCharacter* Dwarf = Cast<ADwarfCharacter>(Hit.GetActor());
+        if (Dwarf)
+        {
+            Dwarf->TakeDamage(fAttackDamage, FDamageEvent(), GetInstigatorController(), this);
+        }
     }
     
 }

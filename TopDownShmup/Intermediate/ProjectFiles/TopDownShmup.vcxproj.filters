@@ -68,6 +68,12 @@
     <ClInclude Include="..\..\Source\TopDownShmup\EnemyCharacter.h">
       <Filter>Source\TopDownShmup</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownShmup\SpawnManager.cpp">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownShmup\SpawnManager.h">
+      <Filter>Source\TopDownShmup</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TopDownShmup\TopDownShmup.Build.cs">
       <Filter>Source\TopDownShmup</Filter>
     </None>
